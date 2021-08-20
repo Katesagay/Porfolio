@@ -8,7 +8,7 @@ body {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     flex-direction: column;
-    background: #C6878F!important;
+    background:linear-gradient(180deg,#B6646F 5%,#C6878F 20%,#C6878F 60%,#B6646F 95%)!important;
     font-size: 1.5em;
     line-height: 1.6;
     font-weight: 400;
@@ -239,6 +239,16 @@ nav ul {
 /*******************************************************************************************************************************************/
 /**title
 /*******************************************************************************************************************************************/
+.neumorphismblock{
+    align-self: center;
+    width: 80vw;
+    height: 30vw;
+    background: linear-gradient(145deg, #a45a64, #c36b77);
+    box-shadow:  41px 41px 82px #5b3238, -41px -41px 82px #ff96a7;
+}
+
+
+
 .job{
 
     display: block;
