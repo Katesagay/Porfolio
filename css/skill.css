@@ -1,0 +1,282 @@
+
+@media only screen and (max-width: 766px) {
+
+    #techList {
+        width:100%
+    }
+
+
+
+@media only screen and (max-width: 320px) {
+    #techList {
+        position: absolute;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        font-family: 'Baloo', sans-serif;
+        /* font-size: 100%; */
+        text-transform: uppercase;
+        color: #B6646F;
+        top: 18% !important;
+        right: -15%;
+        width: 100%;
+        text-outline: 5px black;
+        -webkit-text-stroke: 0.2px black !important;
+        text-shadow: 0px 0px 0 #000,
+                    -0.2px -0.2px 0 #000,
+                     0.2px -0.5px 0 #000,
+                    -0.2px 0.2px 0 #000,
+                     0.2px 0.2px 0 #000 !important;
+    }
+}
+
+
+
+@media only screen and (max-width: 720px) {
+    #techList {
+        position: absolute;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        font-family: 'Baloo', sans-serif;
+        /* font-size: 100%; */
+        text-transform: uppercase;
+        color: #B6646F;
+        top: 18% !important;
+        right: -15%;
+        width: 100%;
+        text-outline: 5px black;
+        -webkit-text-stroke: 0.2px black !important;
+        text-shadow: 0px 0px 0 #000,
+        -0.2px -0.2px 0 #000,
+        0.2px -0.5px 0 #000,
+        -0.2px 0.2px 0 #000,
+        0.2px 0.2px 0 #000 !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+#techList {
+    position: absolute;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo', sans-serif;
+    /*font-size: 100%;*/
+    text-transform: uppercase;
+    color: #B6646F;;
+    top: 11%;
+    right: -15%;
+    width: 100%;
+    text-outline: 5px black;
+    -webkit-text-stroke: 0.5px black !important;
+    text-shadow: 1.7px 1.7px 0 #000,
+    -0.5px -0.5px 0 #000,
+    0.5px -0.5px 0 #000,
+    -0.5px 0.5px 0 #000,
+    0.5px 0.5px 0 #000 !important;
+}
+
+#techList li {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.html5 {
+    font-size: 2vw;
+    font-weight: 700;
+    letter-spacing: -.05em;
+    -webkit-transform:
+            scale(7.5, 7.8)
+            translate(1.18em, .68em);
+    -moz-transform:
+            scale(7.5, 7.8)
+            translate(1.18em, .68em);
+}
+
+.javascript {
+    font-size: 2vw;
+    letter-spacing: -.04em;
+    font-weight: 400;
+    -webkit-transform:
+            scale(1.4)
+            rotate(90deg)
+            translate(3.88em, -13.2em);
+    -moz-transform:
+            scale(1.4)
+            rotate(90deg)
+            translate(3.88em, -13.2em);
+}
+
+.accessibility {
+    font-size: 2vw;
+    letter-spacing: -.05em;
+    font-weight: 300;
+    -webkit-transform:
+            scale(1.4, 1.33)
+            rotate(90deg)
+            translate(4.1em, -18.0em);
+    -moz-transform:
+            scale(1.4, 1.33)
+            rotate(90deg)
+            translate(4.1em, -18.0em);
+}
+
+.responsive {
+    font-size: 2vw;
+    font-weight: 300;
+    letter-spacing: -.03em;
+    word-spacing: .3em;
+    -webkit-transform:
+            scale(2)
+            translate(2.12em, 5.14em);
+    -moz-transform:
+            scale(2)
+            translate(2.12em, 5.14em);
+}
+
+.usability {
+    font-size: 2vw;
+    font-weight: 400;
+    letter-spacing: -.04em;
+    -webkit-transform:
+            scale(2.85, 3)
+            translate(7.14em, 3.55em);
+    -moz-transform:
+            scale(2.85, 3)
+            translate(7.14em, 3.55em);
+}
+
+.ajax {
+    font-size: 2vw;
+    letter-spacing: -0.01em;
+    font-weight: 700;
+    -webkit-transform:
+            scale(2.4, 2.3)
+            rotate(90deg)
+            translate(6em, -5.8em);
+    -moz-transform:
+            scale(2.4, 2.3)
+            rotate(90deg)
+            translate(6em, -5.8em);
+}
+
+.css3 {
+    font-size: 2vw;
+    letter-spacing: .01em;
+    font-weight: 700;
+    -webkit-transform:
+            scale(6.8, 6.75)
+            rotate(90deg)
+            translate(1.32em, -4.54em);
+    -moz-transform:
+            scale(6.8, 6.75)
+            rotate(90deg)
+            translate(1.32em, -4.54em);
+}
+
+.jquery {
+    font-size: 2vw;
+    letter-spacing: 0.045em;
+    font-weight: 700;
+    -webkit-transform:
+            scale(3.88, 3.8)
+            translate(5.42em, 3.72em);
+    -moz-transform:
+            scale(3.88, 3.8)
+            translate(5.42em, 3.72em);
+}
+
+.objectoriented {
+    font-size: 2vw;
+    font-weight: 700;
+    letter-spacing: -.010em;
+    -webkit-transform:
+            scale(1.85, 1.9)
+            translate(1.86em, 6.5em);
+    -moz-transform:
+            scale(1.85, 1.9)
+            translate(1.86em, 6.5em);
+}
+
+.wordpress {
+    font-size: 2vw;
+    font-weight: 300;
+    letter-spacing: -0.05em;
+    -webkit-transform:
+            scale(2.75, 3)
+            translate(1.72em, 4.95em);
+    -moz-transform:
+            scale(2.75, 3)
+            translate(1.72em, 4.95em);
+}
+
+.seo {
+    font-size: 2vw;
+    font-weight: 300;
+    letter-spacing: -0.07em;
+    -webkit-transform:
+            scale(3.9, 4)
+            translate(6.05em, .95em);
+    -moz-transform:
+            scale(3.9, 4)
+            translate(6.05em, .95em);
+}
+
+.crossbrowser {
+    font-size: 2vw;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    word-spacing: .2em;
+    -webkit-transform:
+            scale(2)
+            translate(2.28em, 8.58em);
+    -moz-transform:
+            scale(2)
+            translate(2.28em, 8.58em);
+}
+
+.webstandards {
+    font-size: 2vw;
+    font-weight: 300;
+    letter-spacing: 0em;
+    word-spacing: .1em;
+    -webkit-transform:
+            scale(2)
+            translate(12.7em, 8.6em);
+    -moz-transform:
+            scale(2)
+            translate(12.7em, 8.6em);
+}
+
+.jg {
+    font-size: 2vw;
+    color: #87C6BE;
+    font-weight: 700;
+    letter-spacing: -.03em;
+    -webkit-transform:
+            scale(3.4)
+            translate(7.03em, 2.15em);
+    -moz-transform:
+            scale(3.4)
+            translate(7.03em, 2.15em);
+}
+
+.skills {
+    font-size: 2vw;
+    color: #C69F87;
+    font-weight: 700;
+    letter-spacing: -.03em;
+    -webkit-transform: scale(1.8) translate(9.95em, 9.55em);
+    -moz-transform: scale(1.8) translate(9.95em, 9.55em);
+}
+
