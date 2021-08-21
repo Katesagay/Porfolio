@@ -1,5 +1,4 @@
 * {
-  ;
   font-family: "Baloo";
   font-weight: normal; }
 .kunbee{
@@ -15,7 +14,7 @@
   align-items: center; }
 
 .nav-wrapper {
-  position: absolute;
+  /* position: absolute; */
   display: flex;
   flex-direction: row;
   z-index: 1; }
@@ -32,7 +31,7 @@
   width: 165px !important;
 }
 
-nav {
+/* nav {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -48,7 +47,7 @@ nav {
     left: -53px;
     transition: color 1s ease; }
     nav a:hover {
-      color: #1D1D1D; }
+      color: #1D1D1D; } */
 
 .active {
   color: #1D1D1D; }

@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,700,300);
 @import url(https://fonts.googleapis.com/css?family=Baloo:400,700,300);
 body {
+    overflow: hidden;
     display: -webkit-box;
     display: flex;
     -webkit-box-pack: center;
@@ -28,19 +29,15 @@ html,body{
     padding:0;
    overflow: hidden;
 }
-dl, ol, ul {
-    margin-top: 16px !important;
-    margin-bottom: 1rem;
-}
+
 /*******************************************************************************************************************************************/
 /*Navigation
 /*******************************************************************************************************************************************/
 
-
 .main_nav {
-    position: fixed;
+    overflow: hidden;
+    position: absolute;
     top: 0px;
-    left: 0;
     height: 50px;
     z-index: 50;
     width: 100% !important;
@@ -50,46 +47,24 @@ dl, ol, ul {
     -webkit-text-fill-color: #C6878F;
     font-family: 'Baloo', cursive;
     font-weight: bold;
-}
-.smoothscroll{
-    top: -5px;
-    position: relative;
-    left: -35px;
-}
-@media only screen and (max-width: 766px) {
-    nav ul {
-        padding-top: 0px;
-        margin-bottom: 22px;
-        text-align: center;
-        width: 100%;
-    }
-    #techList {
-        width:100%
-    }
-
-}
-nav ul li {
-    display: inline-block;
-    margin-left: 35px;
-    line-height: 1.5;
-    letter-spacing: 1px;
+    
 }
 
-nav ul a {
+.smoothscroll {
     text-transform: uppercase;
     font-size: 12px;
     text-decoration: none;
     -webkit-text-fill-color: snow;
 }
-nav ul a:hover {
+.smoothscroll ul a:hover{
     text-decoration: none !important
 }
+
 @media only screen and (max-width: 320px) {
 
     .main_nav {
         position: fixed;
         top: 0px;
-        left: 0;
         height: 80px;
         z-index: 9999;
         width: 100%;
@@ -101,31 +76,21 @@ nav ul a:hover {
         font-weight: bold;
     }
 
-    .smoothscroll {
-        top: -18px;
-        position: relative;
-        left: -53px;
-    }
 }
-nav {
-    width: 100%;
-    margin-top: 9px !important;
-}
+
 
 @media only screen and (max-width: 457px) {
     .main_nav{
         height: 80px;
     }
-}
-@media only screen and (max-width: 766px) {
-    nav {
-        width: 100%;
+    .nav_class{
+        margin-top: 6%;
     }
 }
-nav ul {
-    list-style: none;
-    text-align: center;
+@media only screen and (max-width: 766px) {
+  
 }
+
 
 /*******************************************************************************************************************************************/
 
@@ -137,21 +102,6 @@ nav ul {
                      /**title
 /*******************************************************************************************************************************************/
 
-.title {
-    -webkit-align-self: center;
-    -ms-flex-item-align: center;
-    /* align-self: center; */
-    max-width: 1000px;
-    display: block;
-    margin-left: auto;
-    /* margin-right: auto; */
-    padding-top: 5em;
-    padding-right: 5em;
-    top: -19%;
-    position: absolute;
-    right: -4%;
-    z-index: 1000;
-}
 
 
 .column {
@@ -162,70 +112,11 @@ nav ul {
 /*******************************************************************************************************************************************/
 /**title
 /*******************************************************************************************************************************************/
-.greeting{
-    font-family: 'Baloo', cursive;
-    font-size: 3.2vw;
-    text-align: right;
-    text-outline: 5px snow;
-    color: #E6BD75;
-    -webkit-text-stroke: 1px snow;
-    text-shadow:
-            3px 3px 0 #000,
-            -1px -1px 0 #000,
-            1px -1px 0 #000,
-            -1px 1px 0 #000,
-            1px 1px 0 #000;
-    margin-top: 191px;
-    position: relative;
 
-}
-.passion {
-    font-family: 'Baloo', cursive;
-    font-size: 3.2vw;
-    text-align: right;
-    text-outline: 5px black;
-    color: darkgray;
-    -webkit-text-stroke: 1px snow;
-    text-shadow:
-            3px 3px 0 #000,
-            -1px -1px 0 #000,
-            1px -1px 0 #000,
-            -1px 1px 0 #000,
-            1px 1px 0 #000;
-    top: 38px;
-    position: relative;
-
-}
 /*******************************************************************************************************************************************/
 /**title
 /*******************************************************************************************************************************************/
-.horizontal-main-line{
-    width: 95%;
-    height: 30%;
-    z-index: 981;
-    position: absolute;
-    left: 3.6%;
-    top: 20%;
-    border-top:7px dotted snow;
-}
-.vertical-main-line{
-    width: 95%;
-    height: 3650px;
-    z-index: 990;
-    position: absolute;
-    right: 5%;
-    top: 10%;
-    border-right:7px dotted snow;
-}
-#vertical-full-line{
-    width: 95%;
-    height: 85%;
-    z-index: 990;
-    position: absolute;
-    right: 5%;
-    top: 10%;
-    border-right:7px dotted #404040;
-}
+
 .container:after, .row:after, .u-cf {
     content: "";
     display: table;
@@ -237,7 +128,7 @@ nav ul {
     margin-top: 10%;
 }
 /*******************************************************************************************************************************************/
-/**title
+/*mainblock
 /*******************************************************************************************************************************************/
 .neumorphismblock{
     align-self: center;
@@ -270,121 +161,8 @@ nav ul {
 }
 
 
-.job{
-
-    display: block;
-    padding-top: 5em;
-    top: 61%;
-    position: absolute;
-    min-width: 54%;
-    text-align: left;
-    right: 43%;
-    text-outline: 5px black;
-    color: #8FC687;
-    -webkit-text-stroke: 1.5px snow;
-    text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-
-}
-
-.border-dot{
-    font-family: 'Baloo', cursive;
-    font-size: 3.2vw;
-    text-align: left;
-    margin-block-start: -61px;
-}
-.skill{
-    padding-top: 63px;
-    padding-right: 10px;
-    padding-left: 40px;
-    min-width: 50%;
-    top: 97px;
-    position: absolute;
-    text-outline: 5px black;
-    color: #87C6BE;
-    -webkit-text-stroke: 1px snow;
-    text-shadow:
-            3px 3px 0 #000,
-            -1px -1px 0 #000,
-            1px -1px 0 #000,
-            -1px 1px 0 #000,
-            1px 1px 0 #000;
-}
 
 
-@media only screen and (max-width: 720px) {
-    .title {
-        -webkit-align-self: center;
-        -ms-flex-item-align: center;
-        /* align-self: center; */
-        max-width: 1000px;
-        display: block;
-        margin-left: auto;
-        /* margin-right: auto; */
-        padding-top: 0em;
-        padding-right: 0em;
-        top: 13%;
-        position: absolute;
-        right: 11%;
-        z-index: 1000;
-        max-width: 75%;
-        -webkit-text-stroke: 0.5px black !important;
-        text-shadow: 1.7px 1.7px 0 #000,
-        -0.5px -0.5px 0 #000,
-        0.5px -0.5px 0 #000,
-        -0.5px 0.5px 0 #000,
-        0.5px 0.5px 0 #000 !important;
-    }
-
-
-    .skill{
-        padding-top: 0px;
-        padding-right: 0px;
-        padding-left: 0px;
-        min-width: 50%;
-        top: 242px;
-        position: absolute;
-        text-outline: 5px black;
-        color: #87C6BE;
-        -webkit-text-stroke: 0.5px black !important;
-        text-shadow: 1.7px 1.7px 0 #000,
-        -0.5px -0.5px 0 #000,
-        0.5px -0.5px 0 #000,
-        -0.5px 0.5px 0 #000,
-        0.5px 0.5px 0 #000 !important;
-    }
-
-    .job{
-        top: 70%;
-        position: absolute;
-        min-width: 54%;
-        text-align: left;
-        right: 8%;
-        font-size: 16px;
-        -webkit-text-stroke: 0.5px black !important;
-        text-shadow: 1.7px 1.7px 0 #000,
-        -0.5px -0.5px 0 #000,
-        0.5px -0.5px 0 #000,
-        -0.5px 0.5px 0 #000,
-        0.5px 0.5px 0 #000 !important;
-    }
-    .greeting {
-        color: #E6BD75;
-        --webkit-text-stroke: 0.5px white !important;
-        text-shadow: 1.7px 1.7px 0 #000,
-        -0.5px -0.5px 0 #000,
-        0.5px -0.5px 0 #000,
-        -0.5px 0.5px 0 #000,
-        0.5px 0.5px 0 #000 !important;
-        top: 35px;
-        position: relative;
-        font-size: 4vw;
-        
-
-    }
-    .border-dot{
-        font-size: 3.2vw;
-    }
-}
 
 
 /*******************************************************************************************************************************************/

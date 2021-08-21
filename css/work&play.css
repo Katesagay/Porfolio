@@ -1,12 +1,4 @@
 
-body {
-    background-color: #C6878F !important;
-}
-
-
-
-
-
 @media only screen and (max-width: 766px) {
     #techList {
         width:100%
