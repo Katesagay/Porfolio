@@ -220,7 +220,7 @@ a:hover {
     max-width: 33% !important;
 }
 .desktop{
-    min-width: 170px;
+    max-width: 170px;
     right: -13px;
     position: relative;
     padding-inline-end: inherit;
