@@ -208,3 +208,8 @@ html,body{
 .slide-leave-to {
     transform: translateX(100%);
 }
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #a45a64!important;
+}
