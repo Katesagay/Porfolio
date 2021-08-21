@@ -70,7 +70,7 @@ dl, ol, ul {
 }
 nav ul li {
     display: inline-block;
-    margin-left: 35px;
+    margin-left: 2%;
     line-height: 1.5;
     letter-spacing: 1px;
 }
@@ -101,10 +101,10 @@ nav ul a:hover {
         font-weight: bold;
     }
 
-    .smoothscroll {
-        top: -18px;
+    .smoothscroll{
+        top: -5px;
         position: relative;
-        left: -53px;
+        left: 47px;
     }
 }
 nav {
@@ -115,6 +115,13 @@ nav {
 @media only screen and (max-width: 457px) {
     .main_nav{
         height: 80px;
+    }
+}
+@media only screen and (max-width: 700px){
+    .smoothscroll{
+        top: -5px;
+        position: relative;
+        left: 47px;
     }
 }
 @media only screen and (max-width: 766px) {
@@ -260,6 +267,7 @@ nav ul {
     }
 }
 @media only screen and (max-width: 510px) {
+
     .neumorphismblock{
         height: -webkit-fill-available;
         margin-top: 18%;
@@ -267,6 +275,15 @@ nav ul {
         background: linear-gradient(145deg, #a45a64, #c36b77);
         box-shadow:  41px 41px 82px #5b3238, -41px -41px 82px #ff96a7;
     }  
+}
+
+@media only screen and (max-width: 666px) {
+    .smoothscroll{
+        top: -5px;
+        position: relative;
+        left: 47px;
+    }
+
 }
 
 
