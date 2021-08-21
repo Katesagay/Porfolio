@@ -101,10 +101,10 @@ nav ul a:hover {
         font-weight: bold;
     }
 
-    .smoothscroll {
-        top: -18px;
+    .smoothscroll{
+        top: -5px;
         position: relative;
-        left: -53px;
+        left: 47px;
     }
 }
 nav {
@@ -260,6 +260,10 @@ nav ul {
     }
 }
 @media only screen and (max-width: 510px) {
+<<<<<<< HEAD
+=======
+
+>>>>>>> make menu adaptable
     .neumorphismblock{
         height: -webkit-fill-available;
         margin-top: 18%;
@@ -268,6 +272,17 @@ nav ul {
         box-shadow:  41px 41px 82px #5b3238, -41px -41px 82px #ff96a7;
     }  
 }
+<<<<<<< HEAD
+=======
+@media only screen and (max-width: 666px) {
+    .smoothscroll{
+        top: -5px;
+        position: relative;
+        left: 47px;
+    }
+
+}
+>>>>>>> make menu adaptable
 
 
 .job{
