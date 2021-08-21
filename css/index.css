@@ -70,7 +70,7 @@ dl, ol, ul {
 }
 nav ul li {
     display: inline-block;
-    margin-left: 35px;
+    margin-left: 2%;
     line-height: 1.5;
     letter-spacing: 1px;
 }
@@ -267,14 +267,7 @@ nav ul {
     }
 }
 @media only screen and (max-width: 510px) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 
->>>>>>> make menu adaptable
-=======
-
->>>>>>> 7867de461879aeeacfff7ba8601922a83e450780
     .neumorphismblock{
         height: -webkit-fill-available;
         margin-top: 18%;
@@ -283,11 +276,7 @@ nav ul {
         box-shadow:  41px 41px 82px #5b3238, -41px -41px 82px #ff96a7;
     }  
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 7867de461879aeeacfff7ba8601922a83e450780
+
 @media only screen and (max-width: 666px) {
     .smoothscroll{
         top: -5px;
@@ -296,10 +285,6 @@ nav ul {
     }
 
 }
-<<<<<<< HEAD
->>>>>>> make menu adaptable
-=======
->>>>>>> 7867de461879aeeacfff7ba8601922a83e450780
 
 
 .job{
