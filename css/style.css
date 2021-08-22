@@ -29,6 +29,7 @@
   z-index: 1000;
   left: 5px;
   width: 165px !important;
+  border-radius: 0.25rem;
 }
 
 /* nav {
@@ -86,7 +87,9 @@
   flex: 1;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;}
+  align-items: flex-start;
+  margin-top: 2%;
+}
   .text-section h1 {
      }
   .text-section p {

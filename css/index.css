@@ -16,10 +16,11 @@ body {
     font-family: 'Baloo', cursive;
     border-right: 15px solid black;
     border-left: 15px solid black;
-    border-bottom: 15px solid black;
-    -webkit-box-sizing: border-box;/* Safari/Chrome, other WebKit */
-    -moz-box-sizing: border-box ;/* Firefox, other Gecko */
-    box-sizing: border-box ;/* Opera/IE 8+ */
+    border-bottom: 15px solid black; 
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box ; 
+    box-sizing: border-box ;  
+  
 }
 
 html,body{
@@ -123,9 +124,24 @@ html,body{
     clear: both;
 }
 .row{
-    padding: 19px!important;
-    padding-top: 23px;
-    margin-top: 10%;
+    padding: 0%;
+    padding-top: 0%;
+    /* margin-top: 10%; */
+    height: 100%;
+    display: unset !important;
+    margin: auto !important;
+
+    /* display: ; */
+}
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: -webkit-fill-available;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 1%;
+    
 }
 /*******************************************************************************************************************************************/
 /*mainblock
