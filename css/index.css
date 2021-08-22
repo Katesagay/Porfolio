@@ -152,7 +152,7 @@ html,body{
     height: -webkit-fill-available;
     max-height: 80%;
     margin-top: 7%;
-    background: linear-gradient(145deg, #a45a64, #c36b77);
+    background: black;
     box-shadow:  41px 41px 82px #5b3238, -41px -41px 82px #ff96a7;
 }
 @media only screen and (max-width: 640px){
