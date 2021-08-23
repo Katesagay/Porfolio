@@ -5,7 +5,7 @@
     background:#ddd;
     font-family:"Raleway";
   }
-  /* //tabs should become 100%  with and heig when small */
+  /* //at media query mx-width:600 translate tab header to ontop of div t*/
   .tabs {
     position:absolute;
     top:50%;

@@ -16,3 +16,21 @@ function _class(name){
       
     });
   }
+
+  const outputElement = document.getElementById("info");
+
+  const smallDevice = window.matchMedia("(min-width: 576px)");
+  
+  smallDevice.addListener(handleDeviceChange);
+  
+  function handleDeviceChange(e) {
+    // if (e.matches) outputElement.textContent = "Bigger Than Mobile";
+    // else outputElement.textContent = "Mobile";
+    if(e.matches){
+    alert("Hello! I am an alert box!!");
+}
+    
+  }
+  
+  // Run it initially
+  handleDeviceChange(smallDevice);
