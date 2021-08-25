@@ -34,3 +34,32 @@ function _class(name){
   
   // Run it initially
   handleDeviceChange(smallDevice);
+
+  var el = document.getElementById('footer-built');
+  el.remove()
+
+  /* .tab-header{ for media query
+    z-index: 10;
+    overflow: scroll;
+    margin: 5%;
+    position: absolute;
+    display: inline-flex;
+  } */
+  /* ul > li { */
+    /* display: inline-block; */
+    /* You can also add some margins here to make it look prettier */
+    /* zoom:1;
+    *display:inline; */
+    /* this fix is needed for IE7- */
+    /* add a margin 2% for the div in the tab header */
+    /* .tabs .tab-content > div {
+        position: absolute;
+        text-align: center;
+        /* padding: 40px 20px; */
+        /* top: -200%;
+        transition: all 500ms ease-in-out; */
+/* .tab-indicator{ 
+        display: none;
+    } */
+    /* } */ 
+/* } */
