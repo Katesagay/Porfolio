@@ -125,51 +125,6 @@
 		</div>
 	</section>
 </div>
-<Script>
-	const outputElement = document.getElementById("info");
-	
-	const smallDevice = window.matchMedia("(max-width: 576px)");
-	
-	smallDevice.addListener(handleDeviceChange);
-	
-	function handleDeviceChange(e) {
-	
-	if(e.matches){
-		document.getElementById("tab-indicator-menu").style.display = "none";
-		const myNode = document.getElementById("tab-menu");
-		myNode.innerHTML = ""
-		const mySecondNode = document.getElementById("sm-tab-menu");
-		htmlcode = 
-		'<div id="tab-header" class="tab-header" style="z-index: 10; margin: 5%; position: absolute; display: inline-flex; overflow: scroll;"> '+
-				'<div class="active">'+
-				 ' <i class="tab-selector fa fa-code test"></i> Code'+
-				 '</div>'+
-				 '<div>'+
-					'<i class=" tab-selector fa fa-pencil-square test" ></i> About'+
-					'</div>'+
-					'<div>'+
-						' <i class=" tab-selector fa fa-bar-chart test" ></i> Services'+
-						'</div>'+
-						'<div>'+
-							'<i class=" tab-selector fa fa-envelope test"></i> Contact'+
-							'</div>'+
-							'<div>'+
-								'<i class=" tab-selector fa fa-envelope test"></i> Contact'+
-								'</div>'+
-								'<div>'+
-									'<i class=" tab-selector fa fa-envelope test"></i> Contact'+
-									'</div>'+
-									' </div>'
-	
-		mySecondNode.innerHTML = htmlcode 
-		document.getElementById("tab-contents").style.padding = 0;
-	}
-	  
-	}
-	
-	// Run it initially
-	handleDeviceChange(smallDevice);
-	
-	</Script>
+
 </body>
 </html>

@@ -1,7 +1,8 @@
 function _class(name){
     return document.getElementsByClassName(name);
   }
-  
+  navigation_class();
+  function navigation_class(){
   let tabPanes = _class("tab-header")[0].getElementsByTagName("div");
   
   for(let i=0;i<tabPanes.length;i++){
@@ -16,28 +17,58 @@ function _class(name){
       
     });
   }
-
-  const outputElement = document.getElementById("info");
-
-  const smallDevice = window.matchMedia("(min-width: 576px)");
-  
-  smallDevice.addListener(handleDeviceChange);
-  
-  function handleDeviceChange(e) {
-    // if (e.matches) outputElement.textContent = "Bigger Than Mobile";
-    // else outputElement.textContent = "Mobile";
-    if(e.matches){
-    alert("Hello! I am an alert box!!");
 }
-    
-  }
-  
-  // Run it initially
-  handleDeviceChange(smallDevice);
 
-  var el = document.getElementById('footer-built');
-  el.remove()
 
+	const outputElement = document.getElementById("info");
+	
+	const smallDevice = window.matchMedia("(max-width: 576px)");
+	
+	smallDevice.addListener(handleDeviceChange);
+	
+	function handleDeviceChange(e) {
+	
+	if(e.matches){
+		document.getElementById("tab-indicator-menu").style.display = "none";
+		const myNode = document.getElementById("tab-menu");
+		myNode.innerHTML = ""
+		const mySecondNode = document.getElementById("sm-tab-menu");
+		htmlcode = 
+		'<div id="tab-header" class="tab-header" style="z-index: 10; margin: 5%; position: absolute; display: inline-flex; overflow: scroll;"> '+
+				'<div class="active">'+
+				 ' <i class="tab-selector fa fa-code test"></i> Code'+
+				 '</div>'+
+				 '<div>'+
+					'<i class=" tab-selector fa fa-pencil-square test" ></i> About'+
+					'</div>'+
+					'<div>'+
+						' <i class=" tab-selector fa fa-bar-chart test" ></i> Services'+
+						'</div>'+
+						'<div>'+
+							'<i class=" tab-selector fa fa-envelope test"></i> Contact'+
+							'</div>'+
+							'<div>'+
+								'<i class=" tab-selector fa fa-envelope test"></i> Contact'+
+								'</div>'+
+								'<div>'+
+									'<i class=" tab-selector fa fa-envelope test"></i> Contact'+
+									'</div>'+
+									' </div>'
+	
+		mySecondNode.innerHTML = htmlcode 
+		document.getElementById("tab-contents").style.padding = 0;
+    var el = document.getElementById('footer-built');
+    el.remove()
+    navigation_class();  
+	}
+	  
+	}
+	
+	// Run it initially
+	handleDeviceChange(smallDevice);
+	
+
+ 
   /* .tab-header{ for media query
     z-index: 10;
     overflow: scroll;
