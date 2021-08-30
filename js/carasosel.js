@@ -20,12 +20,12 @@ function navigation_class(){
 }
 
 
-	// const outputElement = document.getElementById("info");
+	const outputElement = document.getElementById("info");
 	
 	const smallDevice = window.matchMedia("(max-width: 576px)");
   const largeDevice = window.matchMedia("(min-width: 576px)");
 	
-	smallDevice.addListener(handleDeviceChange);
+  smallDevice.addListener(handleDeviceChange);
   largeDevice.addListener(handlelargeDeviceChange);
 	
 	function handleDeviceChange(e) {
@@ -36,9 +36,9 @@ function navigation_class(){
 		myNode.innerHTML = ""
 		const mySecondNode = document.getElementById("sm-tab-menu");
 		htmlcode = 
-            '<div id="tab-header" class="tab-header" style="z-index: 10;  position: absolute; display: inline-flex; overflow: scroll;"> '+
+            '<div id="tab-header" class="tab-header" style=" display: inline-flex; overflow: scroll;"> '+
             '<div class="active">'+
-            '<i class="tab-selector fa fa-code test"></i> Code'+
+            '<i class="tab-selector fa fa-code test"></i> ABOUT ME'+
             '</div>'+
             '<div>'+
             '<i class=" tab-selector fa fa-pencil-square test" ></i> About'+
@@ -103,6 +103,6 @@ function handlelargeDeviceChange(e) {
   }
   
  	// Run it initially
-   handleDeviceChange(smallDevice);
-   handlelargeDeviceChange(largeDevice);
+  handleDeviceChange(smallDevice);
+  handlelargeDeviceChange(largeDevice);
   

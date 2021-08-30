@@ -9,17 +9,19 @@ body {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     flex-direction: column;
-    background:linear-gradient(180deg,#B6646F 5%,#C6878F 20%,#C6878F 60%,#B6646F 95%)!important;
+    background:#B6646F!important;
     font-size: 1.5em;
     line-height: 1.6;
     font-weight: 400;
     font-family: 'Baloo', cursive;
-    border-right: 15px solid black;
-    border-left: 15px solid black;
-    border-bottom: 15px solid black; 
+    border-right: 15px solid#ff90a0;
+    border-left: 15px solid #ff90a0;
+    border-bottom: 15px solid #ff90a0; 
     -webkit-box-sizing: border-box; 
     -moz-box-sizing: border-box ; 
-    box-sizing: border-box ;  
+    box-sizing: border-box ; 
+    /* background-image: url(/img/honeycomb-svgrepo-com.svg) !important;  */
+    background-image: url(/img/Honeycomb.svg) !important; 
   
 }
 

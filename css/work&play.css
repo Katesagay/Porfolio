@@ -207,8 +207,10 @@ a:hover {
 .btn-primary:focus {
     background-color: #B6646F !important;
     border-color: #B6646F !important;
-    box-shadow: #B6646F !important;
-    outline: 10px black  !important;
+    outline: 10px #B6646F !important; 
+    border-radius: 0.25rem;
+	box-shadow:  5px 5px 4px #49282c,
+						 -5px -5px 4px #ffa0b2;
 }
 
 .btn-primary.focus,

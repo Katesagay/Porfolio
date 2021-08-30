@@ -24,19 +24,21 @@
     height:100%;
     border-right:1px solid #ccc;
     padding:50px 0px;
+    border: inherit;
   }
   .tabs .tab-header > div {
     height:50px;
     line-height:50px;
     font-size:16px;
     font-weight:600;
-    color:#888;
+    color:black;
     cursor:pointer;
     padding-left:10px;
+    width: -webkit-fill-available;
   }
   .tabs .tab-header > div:hover,
   .tabs .tab-header > div.active {
-    color:#00acee;
+    color:#f7b538;
   }
   .tabs .tab-header div i {
     display:inline-block;
@@ -66,6 +68,7 @@
     padding:40px 20px;
     top:-200%;
     transition:all 500ms ease-in-out;
+    color: #f7b538;
   }
   .tabs .tab-content > div.active {
     top:0px;
