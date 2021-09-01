@@ -41,22 +41,22 @@ function navigation_class(){
             '<i class="tab-selector fa fa-code test"></i> ABOUT ME'+
             '</div>'+
             '<div>'+
-            '<i class=" tab-selector fa fa-pencil-square test" ></i> About'+
+            '<i class=" tab-selector fa fa-pencil-square test" ></i> EXPERIENCES'+
             '</div>'+
             '<div>'+
-            '<i class=" tab-selector fa fa-bar-chart test" ></i> Services'+
+            '<i class=" tab-selector fa fa-bar-chart test" ></i> EDUCATION'+
             '</div>'+
-            '<div>'+
-            '<i class=" tab-selector fa fa-envelope test"></i> Contact'+
-            '</div>'+
-            '<div>'+
-            '<i class=" tab-selector fa fa-envelope test"></i> Contact'+
-            '</div>'+
-            '<div>'+
-            '<i class=" tab-selector fa fa-envelope test"></i> Contact'+
-            '</div>'+
+            // '<div>'+
+            // '<i class=" tab-selector fa fa-envelope test"></i> Contact'+
+            // '</div>'+
+            // '<div>'+
+            // '<i class=" tab-selector fa fa-envelope test"></i> Contact'+
+            // '</div>'+
+            // '<div>'+
+            // '<i class=" tab-selector fa fa-envelope test"></i> Contact'+
+            // '</div>'+
             '</div>'
-	
+    
 		mySecondNode.innerHTML = htmlcode 
 		document.getElementById("tab-contents").style.padding = 0;
     document.getElementById("footer-copyright").style.display = "none";
@@ -75,23 +75,23 @@ function handlelargeDeviceChange(e) {
     Reverthtmlcode = 
             '<div id="tab-header" class="tab-header"> '+
             '<div class="active">'+
-            '<i class="tab-selector fa fa-code test"></i> Code'+
+            '<i class="tab-selector fa fa-code test"></i> ABOUT ME'+
             '</div>'+
             '<div>'+
-            '<i class=" tab-selector fa fa-pencil-square test" ></i> About'+
+            '<i class=" tab-selector fa fa-pencil-square test" ></i> EXPERIENCES'+
             '</div>'+
             '<div>'+
-            ' <i class=" tab-selector fa fa-bar-chart test" ></i> Services'+
+            ' <i class=" tab-selector fa fa-bar-chart test" ></i> EDUCATION'+
             '</div>'+
-            '<div>'+
-            '<i class=" tab-selector fa fa-envelope test"></i> Contact'+
-            '</div>'+
-            '<div>'+
-            '<i class=" tab-selector fa fa-envelope test"></i> Contact'+
-            '</div>'+
-            '<div>'+
-            '<i class=" tab-selector fa fa-envelope test"></i> Contact'+
-            '</div>'+
+            // '<div>'+
+            // '<i class=" tab-selector fa fa-envelope test"></i> Contact'+
+            // '</div>'+
+            // '<div>'+
+            // '<i class=" tab-selector fa fa-envelope test"></i> Contact'+
+            // '</div>'+
+            // '<div>'+
+            // '<i class=" tab-selector fa fa-envelope test"></i> Contact'+
+            // '</div>'+
             '</div>'
   mythirdNode.innerHTML = Reverthtmlcode
   document.getElementById("tab-contents").style.padding = "40px 20px"
