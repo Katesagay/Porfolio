@@ -36,7 +36,7 @@ function navigation_class(){
 		myNode.innerHTML = ""
 		const mySecondNode = document.getElementById("sm-tab-menu");
 		htmlcode = 
-            '<div id="tab-header" class="tab-header" style=" display: inline-flex; overflow: scroll;"> '+
+            '<div id="tab-header" class="tab-header" style=" display: inline-flex; overflow: scroll; color: #B6646F; -webkit-text-stroke: 0.5px black;"> '+
             '<div class="active">'+
             '<i class="tab-selector fa fa-code test"></i> ABOUT ME'+
             '</div>'+

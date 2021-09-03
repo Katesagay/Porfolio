@@ -1,6 +1,11 @@
+
+
 document.addEventListener('DOMContentLoaded', () => {
+	
 	//Intitial page load animation
-	anime.timeline({
+	anime.timeline(
+		
+		{
 		easing: 'easeOutExpo',
 	})
 	.add({

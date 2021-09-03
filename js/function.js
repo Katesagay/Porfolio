@@ -4,8 +4,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
 	navLinks.forEach((navLink) => {
 		navLink.addEventListener('mouseenter', () => {
+			
 			let letter = navLink.querySelectorAll('.letter');
 			anime.remove(letter);
+			
 			anime.timeline({
 				targets: letter,
 			})
@@ -90,3 +92,5 @@ function submitToAPI(e) {
 		alert("Oops there was a problem! Email not sent 🤒");
 	  }});
   }
+
+  

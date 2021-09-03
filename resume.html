@@ -1,64 +1,14 @@
-<!doctype html >
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<title>Kunbee</title>
-	<meta name="description" content="Step into my universe">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- Stylesheets -->
-	<link rel="stylesheet" href="css/projects.css">
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/index.css">
-	<link rel="stylesheet" href="css/about.css">
-	<link rel="stylesheet" href="css/skill.css">
-	<link rel="stylesheet" href="css/contact.css">
-	<link rel="stylesheet" href="css/carousel.css">
-	<!-- Javascript -->
-	
-	<script defer src="js/carousel.js"></script>
-	<script defer src="js/animation.js"></script>
-	<script defer src="js/function.js"></script>
-	<script defer src="js/fetch.js"></script>
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
-</head>
-<body>
-<header style="width: 100%; background-color: #ff90a0;">
-<div class="logo">
-	<a  class="kunbee" href="index.html">KUNBEE</a>
-</div>
-
-  <nav style="float: right;" class="nav  nav-pills justify-content-end flex-column flex-sm-row">
-	<a style="color: white;" class="flex-sm-fill text-sm-center nav-link active2" aria-current="page" href="index.html" >Resume</a>
-	<a id="skills-link" style="color: white;" class="flex-sm-fill text-sm-center nav-link"  href="#">Skills</a> 
-	<a id="projects-link" style="color: white;" class="flex-sm-fill text-sm-center nav-link" href="#">Projects</a>
-	<a id="contact-link" style="color: white;" class="flex-sm-fill text-sm-center nav-link" href="#">Contact</a>
-  </nav>
-<script>
-	$(".nav .nav-link").on("click", function(){
-   $(".nav").find(".active2").removeClass("active2");
-   $(this).addClass("active2");
-});
-$(".nav .nav-link").on("click", function(){
-   $(".nav").find(".active").removeClass("active");
-   $(this).addClass("active");
-});
-</script>
-	
-</div>
-</header>
-
-
-<div class="column-wrapper">
-	<section class="text-section new-content">
-
-
-
+<div class="column-wrapper new-content ">
+	<div class="text-section ">
+        <script>
+            // const smallDevice = window.matchMedia("(max-width: 576px)");
+            // const largeDevice = window.matchMedia("(min-width: 576px)");
+            // smallDevice.addListener(handleDeviceChange);
+            // largeDevice.addListener(handlelargeDeviceChange);	
+            // handleDeviceChange(smallDevice);
+            // handlelargeDeviceChange(largeDevice);
+            alert('im here');
+            </script>
 		 <div class="row">
 			<div id="sm-tab-menu"> 
 			</div>
@@ -66,7 +16,8 @@ $(".nav .nav-link").on("click", function(){
 			<div class="tabs" style="border-radius: 0.25rem;
 			background: #B6646F;
 			box-shadow:  5px 5px 4px #49282c,
-						 -5px -5px 4px #ffa0b2;
+						 -5px -5px 4px #ffa0b2;top: 17%;
+    left: 9.5%; height: 73%;
 			"> 
 			<div id="tab-menu">
 				<div class="tab-header" >
@@ -142,8 +93,5 @@ $(".nav .nav-link").on("click", function(){
 		</footer>  
 
 		</div>
-	</section>
+	</div>
 </div>
-
-</body>
-</html>
