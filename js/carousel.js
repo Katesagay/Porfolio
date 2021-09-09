@@ -29,22 +29,22 @@ function navigation_class(){
   largeDevice.addListener(handlelargeDeviceChange);
 	
 	function handleDeviceChange(e) {
-	
+   
 	if(e.matches){
 		document.getElementById("tab-indicator-menu").style.display = "none";
 		const myNode = document.getElementById("tab-menu");
 		myNode.innerHTML = ""
 		const mySecondNode = document.getElementById("sm-tab-menu");
-		htmlcode = 
-            '<div id="tab-header" class="tab-header" style=" display: inline-flex; overflow: scroll; color: #B6646F; -webkit-text-stroke: 0.5px black;"> '+
-            '<div class="active">'+
-            '<i class="tab-selector fa fa-code test"></i> ABOUT ME'+
+		htmlcode =  //style="color: #87C6BE;" add actiive color
+            '<div  class="tab-header" style=" width: 100%; display: flow-root; overflow: unset; color: #B6646F; -webkit-text-stroke: 0.5px black; -webkit-font-smoothing: antialiased; font-size: x-large;"> '+
+            '<div style="margin: 1%;" >'+
+            '<a style="color: #87C6BE;" href="#aboutMe-nav">ABOUT ME</a>' +
             '</div>'+
-            '<div>'+
-            '<i class=" tab-selector fa fa-pencil-square test" ></i> EXPERIENCES'+
+            '<div style="margin: 1%;>'+
+            '<a href="#experiences-nav">EXPERIENCES</a> '+
             '</div>'+
-            '<div>'+
-            '<i class=" tab-selector fa fa-bar-chart test" ></i> EDUCATION'+
+            '<div style="margin: 1%;>'+
+            '<a href="#education-nav">EDUCATION</a>'+
             '</div>'+
             // '<div>'+
             // '<i class=" tab-selector fa fa-envelope test"></i> Contact'+
@@ -58,9 +58,189 @@ function navigation_class(){
             '</div>'
     
 		mySecondNode.innerHTML = htmlcode 
+    // location.reload();
+    const myfirthNode = document.getElementById("sm-tab");
+		firthHtmlcode = '<div id="experiences-nav" class="tabs" style="border-radius: 0.25rem;'+
+    'background: #B6646F;'+
+    'box-shadow:  5px 5px 4px #49282c,-5px -5px 4px #ffa0b2;">'+
+    '<div id="tab-contents">' +
+    '<div class="row">' +
+         '<div class="column-custom" style=" padding: 3px;background-color:#f7b538; width: 25%;">'+
+         '<ul style="font-size: 0.7rem;list-style: none; display: contents;float: left;">'+
+         '<li>2019 - Present</li>'+
+         '<li>Deloitte Consulting</li>'+
+         '<li>London, United Kingdom</li>'+
+         ''+
+       "</div>"+
+  '<div class="column-custom" style="padding: 5px; font-size: 0.8rem;background-color:#f7b538; width: 75%;>'+
+  '<ul style="color: #f7b538; margin-bottom: 50px;">' +
+  '<li>Developed monitoring system templates for product teams'+
+  "Escalated and triaged with product teams on technical issues and trends"+
+  "Automated alert response processes through slack integration and aws for alert response  - leading to better real-time collaborative response from on-call responders"+
+  "Capture and analyze major metrics such as throttling, percentage errors and and develop new metrics and KPIs as necessary. Add these metrics to monitoring dashboards"+
+  "Update runbooks, tools and documentation to facilitate and prepare on-call teams for future incidents"+
+  "Developed complex and dynamic Tableau dashboards "+
+  "Built web connector to feed open-sourced data into Tableau and created diagrams to provide insight "+
+  "Created Lambda function with python on AWS to transform data and feed into MySQL - ETL"+
+  "Custom-built Lambda Layers on Linux platform provided on an Amazon EC2 Instance" +
+  "Query log insights to troubleshoot and investigate incidences Technologies used: Terraform, Python, Bash, Amazon Web Services, Azure, PagerDuty, Slack</li>"
+"</ul>"+
+"</div>"+
+"</div>"+
+  '</div>'+
+   ' </div>'
+    myfirthNode.innerHTML = firthHtmlcode
+    const mysixthNode = document.getElementById("sm-tab-2");
+		sixthHtmlcode =    '<div id="education-nav" class="tabs" style="border-radius: 0.25rem;'+
+         'background: #B6646F;'+
+         'box-shadow:  5px 5px 4px #49282c,-5px -5px 4px #ffa0b2; padding: 15px 10px;">'+
+         '<div id="tab-contents">' +
+
+         '<div class="row">' +
+         '<div class="column-custom" style=" padding: 3px;background-color:#f7b538; width: 25%;">'+
+        '<ul style="font-size: 0.7rem;list-style: none; display: contents;float: left;">'+
+        '<li>  October 2017 – September 2017</li>'+
+        '</ul>'+
+        "</div>"+
+        '<div class="column-custom" style="padding: 5px; font-size: 0.8rem;background-color:#f7b538; width: 75%;>'+
+        '<ul style="color: #f7b538; margin-bottom: 50px;">' +
+        '<li> Imperial College Business School' +
+        "MSc International Health Management" +
+        "Core modules: Entrepreneurship, Business Plan Competition, " +
+        "Health Informatics, Managing Change and Innovation in Healthcare," +
+        "Health Economics, Business Strategy for Global Healthcare " +
+        "and Global Healthcare Marketing " +
+        "Imperial College Business School" +
+        "MSc International Health Management" +
+        "Core modules: Entrepreneurship, Business Plan Competition," +
+        "Health Informatics, Managing Change and Innovation in Healthcare, " +
+        "Health Economics, Business Strategy for Global Healthcare " +
+        "and Global Healthcare Marketing " +
+        "</li>" +
+        "</ul>"+
+        "</div>"+
+        
+
+
+
+
+
+
+
+
+         
+         '<div class="row">' +
+       '<div class="column-custom" style=" padding: 3px;background-color:#f7b538; width: 25%;">'+
+      '<ul style="font-size: 0.7rem;list-style: none; display: contents;float: left;">'+
+      '<li>  October 2017 – September 2017</li>'+
+      '</ul>'+
+      "</div>"+
+      '<div class="column-custom" style="padding: 5px; font-size: 0.8rem;background-color: #f7b538; width: 75%;>'+
+      '<ul style="color: #f7b538; margin-bottom: 50px;">' +
+      '<li> Imperial College Business School' +
+      "MSc International Health Management" +
+      "Core modules: Entrepreneurship, Business Plan Competition, " +
+      "Health Informatics, Managing Change and Innovation in Healthcare," +
+      "Health Economics, Business Strategy for Global Healthcare " +
+      "and Global Healthcare Marketing " +
+      "Imperial College Business School" +
+      "MSc International Health Management" +
+      "Core modules: Entrepreneurship, Business Plan Competition," +
+      "Health Informatics, Managing Change and Innovation in Healthcare, " +
+      "Health Economics, Business Strategy for Global Healthcare " +
+      "and Global Healthcare Marketing " +
+      "</li>" +
+      "</ul>"+
+      "</div>"+
+      '</div>'+
+      "</div>"+
+
+
+         '<div class="row">' +
+         '<div class="column-custom" style=" padding: 3px;background-color:#f7b538; width: 25%;">'+
+         '<ul style="font-size: 0.7rem;list-style: none; display: contents;float: left;">'+
+         '<li> January 2019 – March 2019</li>'+
+         '</ul>'+
+       "</div>"+
+       '<div class="column-custom" style="padding: 5px; font-size: 0.8rem;background-color:#f7b538; width: 75%;>'+
+       '<ul style="color: #f7b538; margin-bottom: 50px;">' +
+       '<li> Belfast Metropolitan College' +
+       " Deloitte Northern Ireland Technology Academy"+
+       "Core modules: Java, SQL, Databases, HTML, CSS," +
+       "JavaScript, API, REST, Amazon Web Services, OOP" +
+       "with Java, Fresh, Linus Essentials, Introduction in" +
+       "Cybersecurity, Presentation skills and Business Consultancy 101" +
+       "Gained: AWS Cloud Practitioner Certification" 
+       "</li>" +
+     "</ul>"+
+     "</div>"+
+       '</div>'+
+
+       '<div class="row">' +
+       "<p>Professional Certifications</p>"+
+       "<ul>"+
+         "<li>AWS Certified Cloud Practitioner</li>"+
+        "<li>AWS Certified Developer - Associate</li>"+
+        "<li>HashiCorp - Terraform Associate</li>"+
+       "</ul>"+
+       "<p>Professional Association Membership</p>"+
+       "<ul>"+
+         "<li>Professional Registration for IT Technicians (RITTech)</li>"+
+       "</ul>"+
+       "</div>"+
+
+
+       
+
+      
+      
+
+
+       
+
+
+      
+
+        ' </div>'+
+        ' </div>' 
+    mysixthNode.innerHTML = sixthHtmlcode
+    const ProfessionalCertNode = document.getElementById("sm-tab-3");
+    ProfessionalCertHTML = '<div id="education-nav" class="tabs" style="border-radius: 0.25rem;'+
+    'background: #B6646F;'+
+    'box-shadow:  5px 5px 4px #49282c,-5px -5px 4px #ffa0b2; padding: 15px 10px;">'+
+    '<div id="tab-contents">' +
+
+    '<div class="row">' +
+    '<div class="column-custom" style=" padding: 3px;background-color:#f7b538; width: 25%;">'+
+    '<ul style="font-size: 0.7rem;list-style: none; display: contents;float: left;">'+
+    '<li>  2019</li>'+
+    '<li> 2020</li>'+
+    '<li> 2021</li>'+
+    '</ul>'+
+    '</div>'+
+  '<div class="column-custom" style="padding: 5px; font-size: 0.8rem;background-color:#f7b538; width: 75%;">'+
+  "<p>Professional Certifications</p>"+
+       "<ul>"+
+         "<li>AWS Certified Cloud Practitioner</li>"+
+        "<li>AWS Certified Developer - Associate</li>"+
+        "<li>HashiCorp - Terraform Associate</li>"+
+       "</ul>"+
+       "<p>Professional Association Membership</p>"+
+       "<ul>"+
+         "<li>Professional Registration for IT Technicians (RITTech)</li>"+
+       "</ul>"+
+"</div>"+
+  '</div>'+
+
+
+    ' </div>'+
+    ' </div>' 
+    ProfessionalCertNode.innerHTML = ProfessionalCertHTML
 		document.getElementById("tab-contents").style.padding = 0;
     document.getElementById("footer-copyright").style.display = "none";
+
     navigation_class();  
+    
 	    }
  }
 	
@@ -73,6 +253,7 @@ function handlelargeDeviceChange(e) {
     myfourthNode.innerHTML = "";
     const mythirdNode = document.getElementById("tab-menu");
     Reverthtmlcode = 
+    
             '<div id="tab-header" class="tab-header"> '+
             '<div class="active">'+
             '<i class="tab-selector fa fa-code test"></i> ABOUT ME'+
@@ -105,4 +286,33 @@ function handlelargeDeviceChange(e) {
  	// Run it initially
   handleDeviceChange(smallDevice);
   handlelargeDeviceChange(largeDevice);
-  
+
+//   '<div id="education-nav" class="tabs" style="border-radius: 0.25rem;'+
+//     'background: #B6646F;'+
+//     'box-shadow:  5px 5px 4px #49282c,-5px -5px 4px #ffa0b2;">'+
+//     '<div id="tab-contents">' +
+//     '<div class="row"> +
+//     '<div class="column-custom" style="background-color:#f7b538; width: 20%;">'+
+//     "<h2>2019 - Present</h2>"+
+//     "<h3>Deloitte Consulting</h3>"+
+//     "<h4>London, United Kingdom</h4>"+
+//   "</div>"
+//   '<div class="column-custom" style="background-color:#f7b538; width: 80%;>'+
+//   '<ul style="color: #f7b538; margin-bottom: 50px;">' +
+//   '<ul>Developed monitoring system templates for product teams</ul>'+
+//   "<ul>Escalated and triaged with product teams on technical issues and trends</ul>"+
+//   "<ul>Automated alert response processes through slack integration and aws for alert response  - leading to better real-time collaborative response from on-call responders</ul>"+
+//   "<ul>Capture and analyze major metrics such as throttling, percentage errors and and develop new metrics and KPIs as necessary. Add these metrics to monitoring dashboards </ul>"+
+//   "<ul>Update runbooks, tools and documentation to facilitate and prepare on-call teams for future incidents</ul>"+
+//   "<ul>Developed complex and dynamic Tableau dashboards </ul>"+
+//  " <ul>Built web connector to feed open-sourced data into Tableau and created diagrams to provide insight </ul>"+
+//   "<ul>Created Lambda function with python on AWS to transform data and feed into MySQL - ETL</ul>"+
+//   "<ul>Custom-built Lambda Layers on Linux platform provided on an Amazon EC2 Instance</ul>"+
+// "</ul>"+
+// "</div>"+
+//   '</div>'+
+//    ' </div>'+
+//    ' </div>'+
+//    ' </div>'+
+//    ' </div>'+
+//    ' </div>'

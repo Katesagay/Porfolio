@@ -33,7 +33,7 @@
 	<a  class="kunbee" href="index.html">KUNBEE</a>
 </div>
 
-  <nav style="float: right;" class="nav  nav-pills justify-content-end flex-column flex-sm-row">
+  <nav id="sm-nav-header" style="float: right;" class="nav  nav-pills justify-content-end flex-column-custom flex-sm-row">
 	<a style="color: white;" class="flex-sm-fill text-sm-center nav-link active2" aria-current="page" href="index.html" >Resume</a>
 	<a id="skills-link" style="color: white;" class="flex-sm-fill text-sm-center nav-link"  href="#">Skills</a> 
 	<a id="projects-link" style="color: white;" class="flex-sm-fill text-sm-center nav-link" href="#">Projects</a>
@@ -58,7 +58,7 @@ $(".nav .nav-link").on("click", function(){
 	<section class="text-section new-content">
 
 
-
+<!-- // remove menu create a new one to move to div -->
 		 <div class="row">
 			<div id="sm-tab-menu"> 
 			</div>
@@ -73,10 +73,10 @@ $(".nav .nav-link").on("click", function(){
 				  <div class="active">
 					<i class="fa tab-selector fa-code"></i> ABOUT ME
 				  </div>
-				  <div>
+				  <div style="height: 50px!important;">
 					<i class="fa tab-selector fa-pencil-square"></i> EXPERIENCES
 				  </div>
-				  <div>
+				  <div style="height: 50px!important;">
 					<i class="fa tab-selector fa-bar-chart"></i> EDUCATION
 				  </div>
 				  <!-- <div>
@@ -95,43 +95,52 @@ $(".nav .nav-link").on("click", function(){
 				  
 				  <div id="tab-contents" class="active">
 					<!-- <i class="fa fa-code"></i> -->
-					<img src="img/honeycomb-svgrepo2-com.svg" style="width: 10%;">
-					<h2 >ABOUT ME</h2>
-					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis eum similique quisquam officiis neque, cumque dignissimos architecto nisi totam sapiente eos et illum laborum atque vero ea perferendis consectetur veritatis.</p>
+					<!-- <img src="img/honeycomb-svgrepo2-com.svg" style="width: 10%;"> -->
+					<h1 style="font-size:50px" >👋</h1>
+					<h1 style="font-size:100px">Hello</h1>
+					<h2> Hello! I'm Kate Kunbi Sagay, a Software Engineer based in Kent</h2>
+					<h2> I enjoy creating Python applications and creating how to videos on youtube.</h2>
 				  </div>
 				  
 				  <div id="tab-contents">
 					<!-- <i class="fa fa-pencil-square"></i> -->
-					<img src="img/honeycomb-svgrepo2-com.svg" style="width: 10%;">
-					<h2 style="color: #87C6BE;" >This is about section</h2>
-					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis eum similique quisquam officiis neque, cumque dignissimos architecto nisi totam sapiente eos et illum laborum atque vero ea perferendis consectetur veritatis.</p>
-				  </div>
-				  
-				  <div id="tab-contents" >
-					<!-- <i class="fa fa-bar-chart"></i> -->
-					<img src="img/honeycomb-svgrepo2-com.svg" style="width: 10%;">
-					<h2>This is services section</h2>
-					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis eum similique quisquam officiis neque, cumque dignissimos architecto nisi totam sapiente eos et illum laborum atque vero ea perferendis consectetur veritatis.</p>
-				  </div>
-				  
-				  <div id="tab-contents">
-					<!-- <i class="fa fa-envelope"></i> -->
-					<h2>This is contact section</h2>
-					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis eum similique quisquam officiis neque, cumque dignissimos architecto nisi totam sapiente eos et illum laborum atque vero ea perferendis consectetur veritatis.</p>
-				  </div>
-				  <div id="tab-contents">
-					<i class="fa fa-envelope"></i>
-					<h2>This is contact section</h2>
-					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis eum similique quisquam officiis neque, cumque dignissimos architecto nisi totam sapiente eos et illum laborum atque vero ea perferendis consectetur veritatis.</p>
-				  </div>
-				  <div id="tab-contents">
-					<i class="fa fa-envelope"></i>
-					<h2>This is contact section</h2>
-					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis eum similique quisquam officiis neque, cumque dignissimos architecto nisi totam sapiente eos et illum laborum atque vero ea perferendis consectetur veritatis.</p>
-				  </div>
+					<!-- <img src="img/honeycomb-svgrepo2-com.svg" style="width: 10%;"> -->
+					<h2 style="color: #87C6BE;" >EXPERIENCES</h2>
+					<div class="row">
+						<div class="column-custom" style="background-color:#aaa; width: 20%;">
+							<h2>2019 - Present</h2>
+							<h3>Deloitte Consulting</h3>
+							<h4>London, United Kingdom</h4>
+						</div>
+						<div class="column-custom" style="background-color:#bbb; width: 80%;">
+							<!-- <ul style="color: #f6f5f7; margin-bottom: 50px;">
+								<ul>Developed monitoring system templates for product teams</ul>
+								<ul>Escalated and triaged with product teams on technical issues and trends</ul>
+								<ul>Automated alert response processes through slack integration and aws for alert response  - leading to better real-time collaborative response from on-call responders</ul>
+								<ul>Capture and analyze major metrics such as throttling, percentage errors and and develop new metrics and KPIs as necessary. Add these metrics to monitoring dashboards </ul>
+								<ul>Update runbooks, tools and documentation to facilitate and prepare on-call teams for future incidents</ul>
+								<ul>Developed complex and dynamic Tableau dashboards </ul>
+								<ul>Built web connector to feed open-sourced data into Tableau and created diagrams to provide insight </ul>
+								<ul>Created Lambda function with python on AWS to transform data and feed into MySQL - ETL</ul>
+								<ul>Custom-built Lambda Layers on Linux platform provided on an Amazon EC2 Instance</ul>
+							</ul>
+						</div> -->
+						<div class="column-custom" style="background-color:#bbb; width: 80%;">
+					
+						</div>
+						</div>
+					  </div>
+				</div>
+				
+		
 				  
 				</div>
-			  </div>
+			  </div> 
+			  <!-- below section needs to be added on with the javascript function -->
+			  <div style="margin-top: 100%; position: absolute;" id="sm-tab"></div>
+			  <div style="margin-top: 270%; position: absolute;" id="sm-tab-2"></div>
+			  <div style="margin-top: 400%; position: absolute;" id="sm-tab-3"></div>
+			 
 		
 
 		<footer class="footer" style="margin-bottom: 0%;">

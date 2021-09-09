@@ -1,4 +1,26 @@
 * {
+  box-sizing: border-box;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .column-custom {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  /* height: -webkit-fill-available; Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+  content: "";
+  display: table;
+  clear: both;
+  }
+
+
+
+
+* {
   font-family: "Baloo";
   font-weight: normal; }
 .kunbee{
@@ -206,3 +228,31 @@
       color: #08A0E9; }
 
 
+/* ------------------------------ */
+/* small screen */
+@media (max-width: 576px){
+body{
+  overflow: scroll !important;
+}
+.tabs {
+  position: relative !important;
+  width: 91% !important;
+  margin-bottom: 10% !important;
+  height: -webkit-fill-available !important;
+
+}
+.tabs .tab-content > div {
+  position: relative !important;
+}
+.flex-column-custom {
+  -ms-flex-direction: row !important;
+  flex-direction: row !important;
+}
+.nav-link {
+  display: block;
+  padding: 0.5rem 0.7em !important;
+}
+.nav {
+  margin-top: 10% !important;
+}
+}
