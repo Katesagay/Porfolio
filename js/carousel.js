@@ -70,7 +70,7 @@ function navigation_class(){
          '<li>2019 - Present</li>'+
          '<li>Deloitte Consulting</li>'+
          '<li>London, United Kingdom</li>'+
-         ''+
+         '</ul>l'+
        "</div>"+
   '<div class="column-custom" style="padding: 5px; font-size: 0.8rem;background-color:#f7b538; width: 75%;>'+
   '<ul style="color: #f7b538; margin-bottom: 50px;">' +

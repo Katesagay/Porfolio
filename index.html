@@ -73,11 +73,11 @@ $(".nav .nav-link").on("click", function(){
 				  <div class="active">
 					<i class="fa tab-selector fa-code"></i> ABOUT ME
 				  </div>
-				  <div style="height: 50px!important;">
+				  <div style="height: 50px!important; font-size: 1.7rem ">
 					<i class="fa tab-selector fa-pencil-square"></i> EXPERIENCES
 				  </div>
-				  <div style="height: 50px!important;">
-					<i class="fa tab-selector fa-bar-chart"></i> EDUCATION
+				  <div style="height: 50px!important; font-size: 1.7rem ">
+					<i style= "font-size: 1.7rem !important"class="fa tab-selector fa-bar-chart"></i> EDUCATION
 				  </div>
 				  <!-- <div>
 					<i class="fa tab-selector fa-envelope"></i> Contact
@@ -91,15 +91,15 @@ $(".nav .nav-link").on("click", function(){
 				</div>
 			</div>
 				<div id="tab-indicator-menu" class="tab-indicator"></div>
-				<div class="tab-content">
+	<div class="tab-content">
 				  
 				  <div id="tab-contents" class="active">
 					<!-- <i class="fa fa-code"></i> -->
 					<!-- <img src="img/honeycomb-svgrepo2-com.svg" style="width: 10%;"> -->
-					<h1 style="font-size:50px" >👋</h1>
-					<h1 style="font-size:100px">Hello</h1>
-					<h2> Hello! I'm Kate Kunbi Sagay, a Software Engineer based in Kent</h2>
-					<h2> I enjoy creating Python applications and creating how to videos on youtube.</h2>
+					<h1 style="font-size: 1rem" >👋</h1>
+					<h1 style="font-size: 2.3rem">Hello</h1>
+					<h2 style="font-size: 1.7rem" > Hello! I'm Kate Kunbi Sagay, a Software Engineer based in Kent</h2>
+					<h2 style="font-size: 1.7rem"> I enjoy creating Python applications and creating how to videos on youtube.</h2>
 				  </div>
 				  
 				  <div id="tab-contents">
@@ -107,35 +107,151 @@ $(".nav .nav-link").on("click", function(){
 					<!-- <img src="img/honeycomb-svgrepo2-com.svg" style="width: 10%;"> -->
 					<h2 style="color: #87C6BE;" >EXPERIENCES</h2>
 					<div class="row">
-						<div class="column-custom" style="background-color:#aaa; width: 20%;">
-							<h2>2019 - Present</h2>
-							<h3>Deloitte Consulting</h3>
-							<h4>London, United Kingdom</h4>
+						<div class="column-custom" style=" padding: 3px; background-color:#aaa; width: 25%;">
+							<ul style="font-size: 1rem;list-style: none; display: contents;float: left;">
+								<li>2019 - Present</li>
+								<li>Deloitte Consulting</li>
+								<li>London, United Kingdom</li>
+								</ul>
 						</div>
+						<div class="column-custom" style="padding: 5px; background-color:#f7b538; width: 75%;">
+							<ul style="color: black; margin-bottom: 50px; list-style: none; padding-inline-start:1%;">
+							<li style="font-size: 0.8rem;">Developed monitoring system templates for product teams
+							Escalated and triaged with product teams on technical issues and trends
+							Automated alert response processes through slack integration and aws for alert response  - leading to better real-time collaborative response from on-call responders
+							Capture and analyze major metrics such as throttling, percentage errors and and develop new metrics and KPIs as necessary. Add these metrics to monitoring dashboards
+							Update runbooks, tools and documentation to facilitate and prepare on-call teams for future incidents
+							Developed complex and dynamic Tableau dashboards
+							Built web connector to feed open-sourced data into Tableau and created diagrams to provide insight 
+							Created Lambda function with python on AWS to transform data and feed into MySQL - ETL
+							Custom-built Lambda Layers on Linux platform provided on an Amazon EC2 Instance
+							Query log insights to troubleshoot and investigate incidences Technologies used: Terraform, Python, Bash, Amazon Web Services, Azure, PagerDuty, Slack</li>
+						  </ul>
+						  </div>
+						</div>
+					</div>
+
+
+						  
+				<div id="tab-contents">
 						<div class="column-custom" style="background-color:#bbb; width: 80%;">
-							<!-- <ul style="color: #f6f5f7; margin-bottom: 50px;">
-								<ul>Developed monitoring system templates for product teams</ul>
-								<ul>Escalated and triaged with product teams on technical issues and trends</ul>
-								<ul>Automated alert response processes through slack integration and aws for alert response  - leading to better real-time collaborative response from on-call responders</ul>
-								<ul>Capture and analyze major metrics such as throttling, percentage errors and and develop new metrics and KPIs as necessary. Add these metrics to monitoring dashboards </ul>
-								<ul>Update runbooks, tools and documentation to facilitate and prepare on-call teams for future incidents</ul>
-								<ul>Developed complex and dynamic Tableau dashboards </ul>
-								<ul>Built web connector to feed open-sourced data into Tableau and created diagrams to provide insight </ul>
-								<ul>Created Lambda function with python on AWS to transform data and feed into MySQL - ETL</ul>
-								<ul>Custom-built Lambda Layers on Linux platform provided on an Amazon EC2 Instance</ul>
+							<div class="tabs" style="border-radius: 0.25rem;
+							background: #B6646F;
+							box-shadow:  5px 5px 4px #49282c,-5px -5px 4px #ffa0b2; padding: 15px 10px;">
+							
+				   
+							<div class="row">
+							<div class="column-custom" style=" padding: 3px;background-color:#f7b538; width: 25%;">
+						   <ul style="font-size: 0.7rem;list-style: none; display: contents;float: left;">
+						   <li>  October 2017 – September 2017</li>
+						   </ul>
+						   </div>
+						   <div class="column-custom" style="padding: 5px; font-size: 0.8rem;background-color:#f7b538; width: 75%;">
+						   <ul style="color: #f7b538; margin-bottom: 50px;">
+						   <li> Imperial College Business School
+						   "MSc International Health Management" +
+						   "Core modules: Entrepreneurship, Business Plan Competition, " +
+						   "Health Informatics, Managing Change and Innovation in Healthcare," +
+						   "Health Economics, Business Strategy for Global Healthcare " +
+						   "and Global Healthcare Marketing " +
+						   "Imperial College Business School" +
+						   "MSc International Health Management" +
+						   "Core modules: Entrepreneurship, Business Plan Competition," +
+						   "Health Informatics, Managing Change and Innovation in Healthcare, " +
+						   "Health Economics, Business Strategy for Global Healthcare " +
+						   "and Global Healthcare Marketing " +
+						   </li>
+						   </ul>
+						   </div>
+						   
+				   
+				   
+				   
+				   
+				   
+				   
+				   
+				   
+							
+							<div class="row">
+						  <div class="column-custom" style=" padding: 3px;background-color:#f7b538; width: 25%;">
+						 <ul style="font-size: 0.7rem;list-style: none; display: contents;float: left;">
+						 <li>  October 2017 – September 2017</li>
+						 </ul>
+						 </div>
+						 <div class="column-custom" style="padding: 5px; font-size: 0.8rem;background-color: #f7b538; width: 75%;">
+						 <ul style="color: #f7b538; margin-bottom: 50px;">
+						 <li> Imperial College Business School' +
+						 "MSc International Health Management" +
+						 "Core modules: Entrepreneurship, Business Plan Competition, " +
+						 "Health Informatics, Managing Change and Innovation in Healthcare," +
+						 "Health Economics, Business Strategy for Global Healthcare " +
+						 "and Global Healthcare Marketing " +
+						 "Imperial College Business School" +
+						 "MSc International Health Management" +
+						 "Core modules: Entrepreneurship, Business Plan Competition," +
+						 "Health Informatics, Managing Change and Innovation in Healthcare, " +
+						 "Health Economics, Business Strategy for Global Healthcare " +
+						 "and Global Healthcare Marketing " +
+						 </li>
+						 </ul>
+						 </div>
+						 </div>
+						 </div>
+				   
+				   
+							<div class="row">
+							<div class="column-custom" style=" padding: 3px;background-color:#f7b538; width: 25%;">
+							<ul style="font-size: 0.7rem;list-style: none; display: contents;float: left;">
+							<li> January 2019 – March 2019</li>
 							</ul>
-						</div> -->
-						<div class="column-custom" style="background-color:#bbb; width: 80%;">
-					
+						  </div>
+						  <div class="column-custom" style="padding: 5px; font-size: 0.8rem;background-color:#f7b538; width: 75%;">
+						  <ul style="color: #f7b538; margin-bottom: 50px;">
+						  <li> Belfast Metropolitan College' +
+						  " Deloitte Northern Ireland Technology Academy"+
+						  "Core modules: Java, SQL, Databases, HTML, CSS," +
+						  "JavaScript, API, REST, Amazon Web Services, OOP" +
+						  "with Java, Fresh, Linus Essentials, Introduction in" +
+						  "Cybersecurity, Presentation skills and Business Consultancy 101" +
+						  "Gained: AWS Cloud Practitioner Certification" 
+						  </li>
+						</ul>
 						</div>
+						  </div>
+				   
+						  <div class="row">
+						  <p>Professional Certifications</p>
+						  <ul>
+							<li>AWS Certified Cloud Practitioner</li>
+						   <li>AWS Certified Developer - Associate</li>
+						   <li>HashiCorp - Terraform Associate</li>
+						  </ul>
+						  <p>Professional Association Membership</p>
+						  <ul>
+							<li>Professional Registration for IT Technicians (RITTech)</li>
+						  </ul>
+						  </div>
+				
+				   
+						    </div>
+						    </div>
+						</div>
+
+						
 						</div>
 					  </div>
 				</div>
-				
-		
-				  
+	
 				</div>
 			  </div> 
+
+
+
+
+
+
+
 			  <!-- below section needs to be added on with the javascript function -->
 			  <div style="margin-top: 100%; position: absolute;" id="sm-tab"></div>
 			  <div style="margin-top: 270%; position: absolute;" id="sm-tab-2"></div>
