@@ -107,8 +107,7 @@
 .column-wrapper {
   display: flex;
   height: 100vh; }
-  .column-wrapper section {
-    display: flex; }
+  
 
 .text-section {
   flex: 1;

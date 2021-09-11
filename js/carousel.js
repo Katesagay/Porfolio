@@ -264,6 +264,9 @@ function handlelargeDeviceChange(e) {
             '<div>'+
             ' <i class=" tab-selector fa fa-bar-chart test" ></i> EDUCATION'+
             '</div>'+
+            '<div>'+
+            ' <i style= "font-size: 1 rem !important" class=" tab-selector fa fa-bar-chart test" ></i>CERTIFICATIONS'+
+            '</div>'+
             // '<div>'+
             // '<i class=" tab-selector fa fa-envelope test"></i> Contact'+
             // '</div>'+
