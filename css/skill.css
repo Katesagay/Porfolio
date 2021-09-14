@@ -226,10 +226,10 @@
     letter-spacing: -0.07em;
     -webkit-transform:
             scale(3.9, 4)
-            translate(6.05em, .95em);
+            translate(6.60em, .95em);
     -moz-transform:
             scale(3.9, 4)
-            translate(6.05em, .95em);
+            translate(6.60em, .95em);
 }
 
 .crossbrowser {
@@ -265,10 +265,10 @@
     letter-spacing: -.03em;
     -webkit-transform:
             scale(3.4)
-            translate(7.03em, 2.15em);
+            translate(7.60em, 2.15em);
     -moz-transform:
             scale(3.4)
-            translate(7.03em, 2.15em);
+            translate(7.60em, 2.15em);
 }
 
 .skills {

@@ -543,16 +543,16 @@ text {
 
 .ajax {
     font-size: 2vw;
-    letter-spacing: -0.01em;
+    letter-spacing: -0.05em;
     font-weight: 700;
     -webkit-transform:
-            scale(2.4, 2.3)
+            scale(2.4, 1.5)
             rotate(90deg)
-            translate(6em, -5.8em);
+            translate(8em, -5.4em);
     -moz-transform:
             scale(2.4, 2.3)
             rotate(90deg)
-            translate(6em, -5.8em);
+            translate(4.5em, -6.2em);
 }
 
 .css3 {
@@ -611,10 +611,10 @@ text {
     letter-spacing: -0.07em;
     -webkit-transform:
             scale(3.9, 4)
-            translate(6.05em, .95em);
+            translate(6.60em, .95em);
     -moz-transform:
             scale(3.9, 4)
-            translate(6.05em, .95em);
+            translate(6.60em, .95em);
 }
 
 .crossbrowser {
@@ -650,10 +650,10 @@ text {
     letter-spacing: -.03em;
     -webkit-transform:
             scale(3.4)
-            translate(7.03em, 2.15em);
+            translate(7.60em, 2.15em);
     -moz-transform:
             scale(3.4)
-            translate(7.03em, 2.15em);
+            translate(7.60em, 2.15em);
 }
 
 .skills {
@@ -662,10 +662,12 @@ text {
     font-weight: 700;
     letter-spacing: -.03em;
     -webkit-transform:
-            scale(1.8)
-            translate(9.95em, 9.55em);
+    scale(1.8) 
+    rotate(90deg)
+    translate(9.50em, -11.77em);
     -moz-transform:
-            scale(1.8)
-            translate(9.95em, 9.55em);
+    scale(1.8) 
+    rotate(90deg) 
+    translate(9.50em, -11.77em);
 }
 

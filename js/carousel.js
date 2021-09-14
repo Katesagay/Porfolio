@@ -31,6 +31,10 @@ function navigation_class(){
 	function handleDeviceChange(e) {
    
 	if(e.matches){
+    document.getElementById("sm-tab-0").style.display = "initial";
+    document.getElementById("sm-tab-1").style.display = "initial";
+    document.getElementById("sm-tab-2").style.display = "initial";
+    document.getElementById("sm-tab-3").style.display = "initial";
 		document.getElementById("tab-indicator-menu").style.display = "none";
 		const myNode = document.getElementById("tab-menu");
 		myNode.innerHTML = ""
@@ -59,11 +63,25 @@ function navigation_class(){
     
 		mySecondNode.innerHTML = htmlcode 
     // location.reload();
-    const myfirthNode = document.getElementById("sm-tab");
+    document.getElementById("large-tab-content").style.display = "none";
+    const myseventhNode = document.getElementById("sm-tab-0");
+    seventhHtmlcode = '<div id="aboutme-nav" class="tabs" style="border-radius: 0.25rem;'+
+    'background: #B6646F;'+
+    'box-shadow:  5px 5px 4px #49282c,-5px -5px 4px #ffa0b2;">'+
+    '<div id="tab-contents">' +
+    '<h1 style="font-size: 1.5rem" >👋</h1>' +
+		'<h1 style="color:#87C6BE; font-size: 2.3rem">Hello</h1>'+
+		"<h2 class= 'stroke-text' style='font-size: 1.7rem; color:#f7b538' > Hello! I'm Kate Kunbi Sagay, a Software Engineer based in Kent</h2>"+
+		'<h2 class= "stroke-text" style="font-size: 1.7rem; color:#f7b538"> I enjoy creating Python applications and creating how to videos on youtube.</h2>'+  
+  '</div>'+
+   ' </div>'
+    myseventhNode.innerHTML = seventhHtmlcode
+    const myfirthNode = document.getElementById("sm-tab-1");
 		firthHtmlcode = '<div id="experiences-nav" class="tabs" style="border-radius: 0.25rem;'+
     'background: #B6646F;'+
     'box-shadow:  5px 5px 4px #49282c,-5px -5px 4px #ffa0b2;">'+
     '<div id="tab-contents">' +
+    "<h2 class= 'stroke-text' style='color: #87C6BE;'>EXPERIENCES</h2>"+
     '<div class="row">' +
          '<div class="column-custom" style=" padding: 3px;background-color:#f7b538; width: 25%;">'+
          '<ul style="font-size: 0.7rem;list-style: none; display: contents;float: left;">'+
@@ -72,14 +90,19 @@ function navigation_class(){
          '<li>London, United Kingdom</li>'+
          '</ul>l'+
        "</div>"+
-  '<div class="column-custom" style="padding: 5px; font-size: 0.8rem;background-color:#f7b538; width: 75%;>'+
-  '<ul style="color: #f7b538; margin-bottom: 50px;">' +
+  '<div class="column-custom" style="padding: 5px; font-size: 0.8rem;background-color:#87C6BE; width: 75%;>'+
+  '<ul style=" margin-bottom: 50px;">' +
   '<li>Developed monitoring system templates for product teams'+
   "Escalated and triaged with product teams on technical issues and trends"+
   "Automated alert response processes through slack integration and aws for alert response  - leading to better real-time collaborative response from on-call responders"+
-  "Capture and analyze major metrics such as throttling, percentage errors and and develop new metrics and KPIs as necessary. Add these metrics to monitoring dashboards"+
+  "Capture and analyze major metrics such as throttling, percentage errors and and develop new metrics and KPIs as necessary - add these metrics to monitoring dashboards"+
   "Update runbooks, tools and documentation to facilitate and prepare on-call teams for future incidents"+
   "Developed complex and dynamic Tableau dashboards "+
+  "Reviewing Pull Requests." +
+	"Peer programming."+
+  "Mentoring Junior Developers." +
+	"Communication Lead of Engineering guild."+
+	"International Business Travel."+
   "Built web connector to feed open-sourced data into Tableau and created diagrams to provide insight "+
   "Created Lambda function with python on AWS to transform data and feed into MySQL - ETL"+
   "Custom-built Lambda Layers on Linux platform provided on an Amazon EC2 Instance" +
@@ -95,27 +118,22 @@ function navigation_class(){
          'background: #B6646F;'+
          'box-shadow:  5px 5px 4px #49282c,-5px -5px 4px #ffa0b2; padding: 15px 10px;">'+
          '<div id="tab-contents">' +
-
+         "<h2 class= 'stroke-text' style='color: #87C6BE;'>EDUCATION</h2>" +
          '<div class="row">' +
          '<div class="column-custom" style=" padding: 3px;background-color:#f7b538; width: 25%;">'+
         '<ul style="font-size: 0.7rem;list-style: none; display: contents;float: left;">'+
-        '<li>  October 2017 – September 2017</li>'+
+        '<li>  January 2019 – March 2019</li>'+
         '</ul>'+
         "</div>"+
-        '<div class="column-custom" style="padding: 5px; font-size: 0.8rem;background-color:#f7b538; width: 75%;>'+
-        '<ul style="color: #f7b538; margin-bottom: 50px;">' +
-        '<li> Imperial College Business School' +
-        "MSc International Health Management" +
-        "Core modules: Entrepreneurship, Business Plan Competition, " +
-        "Health Informatics, Managing Change and Innovation in Healthcare," +
-        "Health Economics, Business Strategy for Global Healthcare " +
-        "and Global Healthcare Marketing " +
-        "Imperial College Business School" +
-        "MSc International Health Management" +
-        "Core modules: Entrepreneurship, Business Plan Competition," +
-        "Health Informatics, Managing Change and Innovation in Healthcare, " +
-        "Health Economics, Business Strategy for Global Healthcare " +
-        "and Global Healthcare Marketing " +
+        '<div class="column-custom" style="padding: 5px; font-size: 0.8rem;background-color:#87C6BE; width: 75%;>'+
+        '<ul style=" margin-bottom: 50px;">' +
+        '<li> Belfast Metropolitan College' +
+        " Deloitte Northern Ireland Technology Academy"+
+        "Core modules: Java, SQL, Databases, HTML, CSS," +
+        "JavaScript, API, REST, Amazon Web Services, OOP" +
+        "with Java, Fresh, Linus Essentials, Introduction in" +
+        "Cybersecurity, Presentation skills and Business Consultancy 101" +
+        "Gained: AWS Cloud Practitioner Certification" +
         "</li>" +
         "</ul>"+
         "</div>"+
@@ -135,8 +153,8 @@ function navigation_class(){
       '<li>  October 2017 – September 2017</li>'+
       '</ul>'+
       "</div>"+
-      '<div class="column-custom" style="padding: 5px; font-size: 0.8rem;background-color: #f7b538; width: 75%;>'+
-      '<ul style="color: #f7b538; margin-bottom: 50px;">' +
+      '<div class="column-custom" style="padding: 5px; font-size: 0.8rem;background-color: #87C6BE; width: 75%;>'+
+      '<ul style=" margin-bottom: 50px;">' +
       '<li> Imperial College Business School' +
       "MSc International Health Management" +
       "Core modules: Entrepreneurship, Business Plan Competition, " +
@@ -159,48 +177,15 @@ function navigation_class(){
          '<div class="row">' +
          '<div class="column-custom" style=" padding: 3px;background-color:#f7b538; width: 25%;">'+
          '<ul style="font-size: 0.7rem;list-style: none; display: contents;float: left;">'+
-         '<li> January 2019 – March 2019</li>'+
+         '<li>  September 2013 – June 2017</li>'+
          '</ul>'+
        "</div>"+
-       '<div class="column-custom" style="padding: 5px; font-size: 0.8rem;background-color:#f7b538; width: 75%;>'+
-       '<ul style="color: #f7b538; margin-bottom: 50px;">' +
-       '<li> Belfast Metropolitan College' +
-       " Deloitte Northern Ireland Technology Academy"+
-       "Core modules: Java, SQL, Databases, HTML, CSS," +
-       "JavaScript, API, REST, Amazon Web Services, OOP" +
-       "with Java, Fresh, Linus Essentials, Introduction in" +
-       "Cybersecurity, Presentation skills and Business Consultancy 101" +
-       "Gained: AWS Cloud Practitioner Certification" 
-       "</li>" +
+       '<div class="column-custom" style="padding: 5px; font-size: 0.8rem;background-color:#87C6BE; width: 75%;>'+
+       '<ul style=" margin-bottom: 50px;">' +
+       '<li> Univeristy of East London - Biomedicial Science - 1st class </li>' +
      "</ul>"+
      "</div>"+
        '</div>'+
-
-       '<div class="row">' +
-       "<p>Professional Certifications</p>"+
-       "<ul>"+
-         "<li>AWS Certified Cloud Practitioner</li>"+
-        "<li>AWS Certified Developer - Associate</li>"+
-        "<li>HashiCorp - Terraform Associate</li>"+
-       "</ul>"+
-       "<p>Professional Association Membership</p>"+
-       "<ul>"+
-         "<li>Professional Registration for IT Technicians (RITTech)</li>"+
-       "</ul>"+
-       "</div>"+
-
-
-       
-
-      
-      
-
-
-       
-
-
-      
-
         ' </div>'+
         ' </div>' 
     mysixthNode.innerHTML = sixthHtmlcode
@@ -218,19 +203,31 @@ function navigation_class(){
     '<li> 2021</li>'+
     '</ul>'+
     '</div>'+
-  '<div class="column-custom" style="padding: 5px; font-size: 0.8rem;background-color:#f7b538; width: 75%;">'+
-  "<p>Professional Certifications</p>"+
-       "<ul>"+
-         "<li>AWS Certified Cloud Practitioner</li>"+
-        "<li>AWS Certified Developer - Associate</li>"+
-        "<li>HashiCorp - Terraform Associate</li>"+
-       "</ul>"+
-       "<p>Professional Association Membership</p>"+
-       "<ul>"+
-         "<li>Professional Registration for IT Technicians (RITTech)</li>"+
-       "</ul>"+
+    '<div class="column-custom" style=" padding: 3px;background-color:#87C6BE; width: 75%;">'+
+    "<h2 class= 'stroke-text' style='text-align: right;  color: #87C6BE;'>Professional Certifications</h2>"+
+    "<ul>"+
+      "<li>AWS Certified Cloud Practitioner</li>"+
+     "<li>AWS Certified Developer - Associate</li>"+
+     "<li>HashiCorp - Terraform Associate</li>"+
+    "</ul>"+
+    "<h2 class= 'stroke-text' style='text-align: right; color: #87C6BE;'>Professional Association Memberships</h2>"+
+    "<ul>"+
+      "<li>Professional Registration for IT Technicians (RITTech)</li>"+
+    "</ul>"+
+    "</div>"+
+    "<div class='row'>"+
+		"<div class='column-custom' style= 'padding: 3px;background-color:#f7b538; width: 25%;'>"+
+		"<ul style='color:black; font-size: 1rem;list-style: none; display: contents;float: left;'>"+
+		"<li> 2019</li>"+
+		"</ul>"+
+		"</div>"+
+		"<div class='column-custom' style=' float: right; font-size: 0.8rem;background-color:#87C6BE; width: 75%;'>"+
+		"<ul style='color:black; margin-bottom: 50px; padding-inline-start:1%; list-style: none; display: contents;'>"+
+		"<li>Professional Registration for IT Technicians (RITTech)</li>"+
+		"</ul>"+
+		"</div>"+
+	
 "</div>"+
-  '</div>'+
 
 
     ' </div>'+
@@ -281,6 +278,11 @@ function handlelargeDeviceChange(e) {
   document.getElementById("tab-contents").style.padding = "40px 20px"
   navigation_class();
   document.getElementById("footer-copyright").style.display = "";
+  document.getElementById("large-tab-content").style.display = "initial";
+  document.getElementById("sm-tab-0").style.display = "none";
+  document.getElementById("sm-tab-1").style.display = "none";
+  document.getElementById("sm-tab-2").style.display = "none";
+  document.getElementById("sm-tab-3").style.display = "none";
   
 }
 

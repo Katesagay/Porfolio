@@ -255,3 +255,13 @@ body{
   margin-top: 10% !important;
 }
 }
+
+@media(min-width: 1400px){
+  .tabs {
+    padding: 30px 20px  !important;
+  }
+
+}
+.stroke-text {
+  text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
