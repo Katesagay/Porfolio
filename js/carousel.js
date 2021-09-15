@@ -42,13 +42,16 @@ function navigation_class(){
 		htmlcode =  //style="color: #87C6BE;" add actiive color
             '<div  class="tab-header" style=" width: 100%; display: flow-root; overflow: unset; color: #B6646F; -webkit-text-stroke: 0.5px black; -webkit-font-smoothing: antialiased; font-size: x-large;"> '+
             '<div style="margin: 1%;" >'+
-            '<a style="color: #87C6BE;" href="#aboutMe-nav">ABOUT ME</a>' +
+            '<a class="stroke-text"  style="color: #87C6BE;" href="#aboutMe-nav">ABOUT ME</a>' +
             '</div>'+
-            '<div style="margin: 1%;>'+
-            '<a href="#experiences-nav">EXPERIENCES</a> '+
+            '<div style="margin: 1%;">'+
+            '<a class="stroke-text"  style="color: #87C6BE;" href="#experiences-nav"> EXPERIENCES </a> '+
             '</div>'+
-            '<div style="margin: 1%;>'+
-            '<a href="#education-nav">EDUCATION</a>'+
+            '<div style="margin: 1%;">'+
+            '<a class="stroke-text"  style="color: #87C6BE;" href="#education-nav">EDUCATION</a>'+
+            '</div>'+
+            '<div style="margin: 1%;">'+
+            '<a class="stroke-text" style="color: #87C6BE;" href="#certifications-nav">PROFESSIONAL CERTIFICATIONS</a>'+
             '</div>'+
             // '<div>'+
             // '<i class=" tab-selector fa fa-envelope test"></i> Contact'+
@@ -84,15 +87,15 @@ function navigation_class(){
     "<h2 class= 'stroke-text' style='color: #87C6BE;'>EXPERIENCES</h2>"+
     '<div class="row">' +
          '<div class="column-custom" style=" padding: 3px;background-color:#f7b538; width: 25%;">'+
-         '<ul style="font-size: 0.7rem;list-style: none; display: contents;float: left;">'+
+         '<ul style="font-size: 1rem;list-style: none; display: contents;float: left;">'+
          '<li>2019 - Present</li>'+
          '<li>Deloitte Consulting</li>'+
          '<li>London, United Kingdom</li>'+
-         '</ul>l'+
+         '</ul>'+
        "</div>"+
-  '<div class="column-custom" style="padding: 5px; font-size: 0.8rem;background-color:#87C6BE; width: 75%;>'+
-  '<ul style=" margin-bottom: 50px;">' +
-  '<li>Developed monitoring system templates for product teams'+
+  '<div class="column-custom" style="padding: 5px; font-size: 1rem;background-color:#87C6BE; width: 75%;>'+
+  '<ul style="  list-style: none; margin-bottom: 50px;">' +
+  '<li style="list-style: none;">Developed monitoring system templates for product teams'+
   "Escalated and triaged with product teams on technical issues and trends"+
   "Automated alert response processes through slack integration and aws for alert response  - leading to better real-time collaborative response from on-call responders"+
   "Capture and analyze major metrics such as throttling, percentage errors and and develop new metrics and KPIs as necessary - add these metrics to monitoring dashboards"+
@@ -121,13 +124,15 @@ function navigation_class(){
          "<h2 class= 'stroke-text' style='color: #87C6BE;'>EDUCATION</h2>" +
          '<div class="row">' +
          '<div class="column-custom" style=" padding: 3px;background-color:#f7b538; width: 25%;">'+
-        '<ul style="font-size: 0.7rem;list-style: none; display: contents;float: left;">'+
+        '<ul style="font-size: 1rem;list-style: none; display: contents;float: left;">'+
         '<li>  January 2019 – March 2019</li>'+
+        '<li>  Belfast Metropolitan College </li>'+
+        '<li>  Northern Ireland, UK </li>'+
         '</ul>'+
         "</div>"+
-        '<div class="column-custom" style="padding: 5px; font-size: 0.8rem;background-color:#87C6BE; width: 75%;>'+
-        '<ul style=" margin-bottom: 50px;">' +
-        '<li> Belfast Metropolitan College' +
+        '<div class="column-custom" style="padding: 5px; font-size: 1rem;background-color:#87C6BE; width: 75%;>'+
+        '<ul style="list-style: none; margin-bottom: 50px;">' +
+        '<li style=" list-style: none;">' +
         " Deloitte Northern Ireland Technology Academy"+
         "Core modules: Java, SQL, Databases, HTML, CSS," +
         "JavaScript, API, REST, Amazon Web Services, OOP" +
@@ -149,22 +154,17 @@ function navigation_class(){
          
          '<div class="row">' +
        '<div class="column-custom" style=" padding: 3px;background-color:#f7b538; width: 25%;">'+
-      '<ul style="font-size: 0.7rem;list-style: none; display: contents;float: left;">'+
+      '<ul style="font-size: 1rem;list-style: none; display: contents;float: left;">'+
       '<li>  October 2017 – September 2017</li>'+
+      '<li>  Imperial College Business School </li>'+
+      '<li> London, UK </li>'+
       '</ul>'+
       "</div>"+
-      '<div class="column-custom" style="padding: 5px; font-size: 0.8rem;background-color: #87C6BE; width: 75%;>'+
+      '<div class="column-custom" style=" list-style: none; padding: 5px; font-size: 1rem;background-color: #87C6BE; width: 75%;>'+
       '<ul style=" margin-bottom: 50px;">' +
-      '<li> Imperial College Business School' +
-      "MSc International Health Management" +
+      '<li> MSc International Health Management' +
       "Core modules: Entrepreneurship, Business Plan Competition, " +
       "Health Informatics, Managing Change and Innovation in Healthcare," +
-      "Health Economics, Business Strategy for Global Healthcare " +
-      "and Global Healthcare Marketing " +
-      "Imperial College Business School" +
-      "MSc International Health Management" +
-      "Core modules: Entrepreneurship, Business Plan Competition," +
-      "Health Informatics, Managing Change and Innovation in Healthcare, " +
       "Health Economics, Business Strategy for Global Healthcare " +
       "and Global Healthcare Marketing " +
       "</li>" +
@@ -176,13 +176,15 @@ function navigation_class(){
 
          '<div class="row">' +
          '<div class="column-custom" style=" padding: 3px;background-color:#f7b538; width: 25%;">'+
-         '<ul style="font-size: 0.7rem;list-style: none; display: contents;float: left;">'+
+         '<ul style="font-size: 1rem;list-style: none; display: contents;float: left;">'+
          '<li>  September 2013 – June 2017</li>'+
+         '<li> Univeristy of East London </li>'+
+         '<li> London, UK </li>'+
          '</ul>'+
        "</div>"+
-       '<div class="column-custom" style="padding: 5px; font-size: 0.8rem;background-color:#87C6BE; width: 75%;>'+
-       '<ul style=" margin-bottom: 50px;">' +
-       '<li> Univeristy of East London - Biomedicial Science - 1st class </li>' +
+       '<div class="column-custom" style="padding: 5px; font-size: 1rem;background-color:#87C6BE; width: 75%;>'+
+       '<ul style=" list-style: none; margin-bottom: 50px;">' +
+       '<li style=" list-style: none;"> Biomedicial Science - 1st class </li>' +
      "</ul>"+
      "</div>"+
        '</div>'+
@@ -190,39 +192,36 @@ function navigation_class(){
         ' </div>' 
     mysixthNode.innerHTML = sixthHtmlcode
     const ProfessionalCertNode = document.getElementById("sm-tab-3");
-    ProfessionalCertHTML = '<div id="education-nav" class="tabs" style="border-radius: 0.25rem;'+
+    ProfessionalCertHTML = '<div id="certifications-nav" class="tabs" style="border-radius: 0.25rem;'+
     'background: #B6646F;'+
     'box-shadow:  5px 5px 4px #49282c,-5px -5px 4px #ffa0b2; padding: 15px 10px;">'+
     '<div id="tab-contents">' +
-
+    "<h2 class= 'stroke-text' style='text-align: right;  color: #87C6BE;'>Professional Certifications</h2>"+
     '<div class="row">' +
     '<div class="column-custom" style=" padding: 3px;background-color:#f7b538; width: 25%;">'+
-    '<ul style="font-size: 0.7rem;list-style: none; display: contents;float: left;">'+
+    '<ul style="font-size: 1rem;list-style: none; display: contents;float: left;">'+
     '<li>  2019</li>'+
     '<li> 2020</li>'+
     '<li> 2021</li>'+
     '</ul>'+
     '</div>'+
     '<div class="column-custom" style=" padding: 3px;background-color:#87C6BE; width: 75%;">'+
-    "<h2 class= 'stroke-text' style='text-align: right;  color: #87C6BE;'>Professional Certifications</h2>"+
-    "<ul>"+
+    
+    "<ul style='list-style: none;'>"+
       "<li>AWS Certified Cloud Practitioner</li>"+
      "<li>AWS Certified Developer - Associate</li>"+
      "<li>HashiCorp - Terraform Associate</li>"+
     "</ul>"+
-    "<h2 class= 'stroke-text' style='text-align: right; color: #87C6BE;'>Professional Association Memberships</h2>"+
-    "<ul>"+
-      "<li>Professional Registration for IT Technicians (RITTech)</li>"+
-    "</ul>"+
     "</div>"+
+    "<h2 class= 'stroke-text' style='text-align: right; color: #87C6BE;'>Professional Association Memberships</h2>"+
     "<div class='row'>"+
 		"<div class='column-custom' style= 'padding: 3px;background-color:#f7b538; width: 25%;'>"+
-		"<ul style='color:black; font-size: 1rem;list-style: none; display: contents;float: left;'>"+
+		"<ul style='font-size: 1rem;list-style: none; display: contents;float: left;'>"+
 		"<li> 2019</li>"+
 		"</ul>"+
 		"</div>"+
-		"<div class='column-custom' style=' float: right; font-size: 0.8rem;background-color:#87C6BE; width: 75%;'>"+
-		"<ul style='color:black; margin-bottom: 50px; padding-inline-start:1%; list-style: none; display: contents;'>"+
+		"<div class='column-custom' style=' float: right; font-size: 1rem;background-color:#87C6BE; width: 75%;'>"+
+		"<ul style='margin-bottom: 50px; padding-inline-start:1%; list-style: none; display: contents;'>"+
 		"<li>Professional Registration for IT Technicians (RITTech)</li>"+
 		"</ul>"+
 		"</div>"+

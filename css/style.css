@@ -116,14 +116,6 @@
   align-items: flex-start;
   margin-top: 2%;
 }
-  .text-section h1 {
-     }
-  .text-section p {
-    /* max-width: 80%; */
-    line-height: 25px;
-    color: #f6f5f7;
-    margin-bottom: 50px;
-    letter-spacing: 1px; }
 
 .details-btn {
   font-weight: bold;
@@ -264,4 +256,11 @@ body{
 }
 .stroke-text {
   text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.tab-text-spacing{
+  
+  text-indent: 15px;
+  color:black !important; 
+ 
+
 }
