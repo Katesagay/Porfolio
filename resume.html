@@ -1,88 +1,259 @@
-<div class="column-wrapper new-content ">
-	<div class="text-section ">
-        <script>
-            // const smallDevice = window.matchMedia("(max-width: 576px)");
-            // const largeDevice = window.matchMedia("(min-width: 576px)");
-            // smallDevice.addListener(handleDeviceChange);
-            // largeDevice.addListener(handlelargeDeviceChange);	
-            // handleDeviceChange(smallDevice);
-            // handlelargeDeviceChange(largeDevice);
-            alert('im here');
-            </script>
+<!doctype html >
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Kunbee</title>
+	<meta name="description" content="Step into my universe">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/projects.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/about.css">
+	<link rel="stylesheet" href="css/skill.css">
+	<link rel="stylesheet" href="css/contact.css">
+	<link rel="stylesheet" href="css/carousel.css">
+	<!-- Javascript -->
+	
+	<script defer src="js/carousel.js"></script>
+	<script defer src="js/animation.js"></script>
+	<script defer src="js/function.js"></script>
+	<script defer src="js/fetch.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<header style="width: 100%; background-color: #ff90a0;">
+<div class="logo">
+	<a  class="kunbee" href="index.html">KUNBEE</a>
+</div>
+
+  <nav id="sm-nav-header" style="float: right;" class="nav  nav-pills justify-content-end flex-column-custom flex-sm-row">
+	<a style="color: white;" class="flex-sm-fill text-sm-center nav-link active2" aria-current="page" href="index.html" >Resume</a>
+	<a id="skills-link" style="color: white;" class="flex-sm-fill text-sm-center nav-link"  href="#">Skills</a> 
+	<a id="projects-link" style="color: white;" class="flex-sm-fill text-sm-center nav-link" href="#">Projects</a>
+	<a id="contact-link" style="color: white;" class="flex-sm-fill text-sm-center nav-link" href="#">Contact</a>
+  </nav>
+<script>
+	$(".nav .nav-link").on("click", function(){
+   $(".nav").find(".active2").removeClass("active2");
+   $(this).addClass("active2");
+});
+$(".nav .nav-link").on("click", function(){
+   $(".nav").find(".active").removeClass("active");
+   $(this).addClass("active");
+});
+</script>
+	
+</div>
+</header>
+
+
+<div class="column-wrapper">
+	<section class=" new-content">
+
+
+<!-- // remove menu create a new one to move to div -->
 		 <div class="row">
 			<div id="sm-tab-menu"> 
 			</div>
 	
-			<div class="tabs" style="border-radius: 0.25rem;
+			<div id="large-tab-content" class="tabs" style="border-radius: 0.25rem;
 			background: #B6646F;
 			box-shadow:  5px 5px 4px #49282c,
-						 -5px -5px 4px #ffa0b2;top: 17%;
-    left: 9.5%; height: 73%;
+						 -5px -5px 4px #ffa0b2;
 			"> 
 			<div id="tab-menu">
 				<div class="tab-header" >
+					
 				  <div class="active">
-					<i class="fa tab-selector fa-code"></i> ABOUTfgfg ME
+					<i class="fa tab-selector fa-code"></i> ABOUT ME
 				  </div>
-				  <div>
+				  <div style="height: 50px!important; font-size: 1.7rem ">
 					<i class="fa tab-selector fa-pencil-square"></i> EXPERIENCES
 				  </div>
-				  <div>
-					<i class="fa tab-selector fa-bar-chart"></i> EDUCATION
+				  <div style="height: 50px!important; font-size: 1.7rem ">
+					<i style= "font-size: 1.7rem !important"class="fa tab-selector fa-bar-chart"></i> EDUCATION
 				  </div>
-				  <!-- <div>
-					<i class="fa tab-selector fa-envelope"></i> Contact
+				  <div style="height: 50px!important; font-size: 1.7rem ">
+					<i style= "font-size: 1.7rem !important"class="fa tab-selector fa-bar-chart"></i>  PROFESSIONAL CERTIFICATIONS
 				  </div>
-				  <div>
-					<i class="fa tab-selector fa-envelope"></i> Contact
-				  </div>
-				  <div>
-					<i class="fa tab-selector fa-envelope"></i> Contact
-				  </div> -->
 				</div>
 			</div>
+
 				<div id="tab-indicator-menu" class="tab-indicator"></div>
-				<div class="tab-content">
+	
+				<div id="tab-content" class="tab-content">
 				  
 				  <div id="tab-contents" class="active">
-					<!-- <i class="fa fa-code"></i> -->
-					<img src="img/honeycomb-svgrepo2-com.svg" style="width: 10%;">
-					<h2 >ABOUT ME</h2>
-					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis eum similique quisquam officiis neque, cumque dignissimos architecto nisi totam sapiente eos et illum laborum atque vero ea perferendis consectetur veritatis.</p>
+					<h1 style="font-size: 1.5rem" >👋</h1>
+					<h1 style="color:#87C6BE; font-size: 2.3rem">Hello</h1>
+					<h2 class= "stroke-text"style="font-size: 1.7rem;" > Hello! I'm Kate Kunbi Sagay, a Software Engineer based in Kent</h2>
+					<h2 class= "stroke-text" style="font-size: 1.7rem;"> I enjoy creating Python applications and creating how to videos on youtube.</h2>
 				  </div>
 				  
 				  <div id="tab-contents">
-					<!-- <i class="fa fa-pencil-square"></i> -->
-					<img src="img/honeycomb-svgrepo2-com.svg" style="width: 10%;">
-					<h2 style="color: #87C6BE;" >This is about section</h2>
-					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis eum similique quisquam officiis neque, cumque dignissimos architecto nisi totam sapiente eos et illum laborum atque vero ea perferendis consectetur veritatis.</p>
-				  </div>
-				  
-				  <div id="tab-contents" >
-					<!-- <i class="fa fa-bar-chart"></i> -->
-					<img src="img/honeycomb-svgrepo2-com.svg" style="width: 10%;">
-					<h2>This is services section</h2>
-					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis eum similique quisquam officiis neque, cumque dignissimos architecto nisi totam sapiente eos et illum laborum atque vero ea perferendis consectetur veritatis.</p>
-				  </div>
-				  
-				  <div id="tab-contents">
-					<!-- <i class="fa fa-envelope"></i> -->
-					<h2>This is contact section</h2>
-					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis eum similique quisquam officiis neque, cumque dignissimos architecto nisi totam sapiente eos et illum laborum atque vero ea perferendis consectetur veritatis.</p>
-				  </div>
-				  <div id="tab-contents">
-					<i class="fa fa-envelope"></i>
-					<h2>This is contact section</h2>
-					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis eum similique quisquam officiis neque, cumque dignissimos architecto nisi totam sapiente eos et illum laborum atque vero ea perferendis consectetur veritatis.</p>
-				  </div>
-				  <div id="tab-contents">
-					<i class="fa fa-envelope"></i>
-					<h2>This is contact section</h2>
-					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis eum similique quisquam officiis neque, cumque dignissimos architecto nisi totam sapiente eos et illum laborum atque vero ea perferendis consectetur veritatis.</p>
-				  </div>
-				  
-				</div>
-			  </div>
+					<h2 class= "stroke-text" style="color: #87C6BE;" >EXPERIENCES</h2>
+					<aside class="row">
+						<section class="column-custom" style=" padding: 3px; background-color:#f7b538; width: 25%;">
+							<ul style="color: black; font-size: 1rem;list-style: none; display: contents;float: left;">
+								<li>Deloitte Consulting</li>
+								<li>London, United Kingdom</li>
+								<li>2019 - Present</li>
+								</ul>
+						</section>
+						<section class="column-custom" style="padding: 5px; background-color:#87C6BE; width: 75%;">
+							<p class="tab-text-spacing"> Developed monitoring system templates for product teams.
+							Escalated and triaged with product teams on technical issues and trends.
+							Automated alert response processes through slack integration and aws for alert response  - leading to better real-time collaborative response from on-call responders.
+							Capture and analyze major metrics such as throttling, percentage errors and and develop new metrics and KPIs as necessary - add these metrics to monitoring dashboards.
+							Update runbooks, tools and documentation to facilitate and prepare on-call teams for future incidents.
+							Developed complex and dynamic Tableau dashboards.
+							Reviewing Pull Requests.
+							Peer programming.
+							Built web connector to feed open-sourced data into Tableau and created diagrams to provide insight.
+							Created Lambda function with python on AWS to transform data and feed into MySQL - ETL.
+							Custom-built Lambda Layers on Linux platform provided on an Amazon EC2 Instance.
+							Query log insights to troubleshoot and investigate incidences.
+							Mentoring Junior Developers.
+							Communication Lead of Engineering guild.
+							International Business Travel.
+							Technologies used: Terraform, Python, Bash, Amazon Web Services, Azure, PagerDuty, Slack</p>
+						</section>
+						</aside>
+					</div>
+
+
+
+
+					<div id="tab-contents">
+						<h2 class= "stroke-text" style="color: #87C6BE;" >EDUCATION</h2>
+
+						<aside class="row"> 
+
+						<section class="column-custom" style=" padding: 3px;background-color:#f7b538; width: 25%;">
+							<ul style=" color: black; font-size: 1rem;list-style: none; display: contents;float: left;">
+							<li>Belfast Metropolitan College</li>
+							<li>Northern Ireland, UK</li>
+							<li>January 2019 – March 2019</li>
+							</ul> 
+						</section>
+						  <section class="column-custom" style="padding: 5px; background-color:#87C6BE; width: 75%;">
+						  
+							<p class="tab-text-spacing"> 
+						  Deloitte Northern Ireland Technology Academy
+						  Core modules: Java, SQL, Databases, HTML, CSS
+						  JavaScript, API, REST, Amazon Web Services, OOP
+						  with Java, Fresh, Linus Essentials, Introduction in
+						  Cybersecurity, Presentation skills and Business Consultancy 101
+						  Gained: AWS Cloud Practitioner Certification
+							</p>
+					</section>
+					</aside> 
+
+
+
+
+						 <aside class="row"> 
+							 <section class="column-custom" style=" padding: 3px;background-color:#f7b538; width: 25%;">
+						   <ul style=" color: black; font-size: 1rem;list-style: none; display: contents;float: left;">
+						   <li> Imperial College Business School</li>
+						   <li> London, UK</li>
+						   <li>  October 2017 – September 2018</li>
+						   </ul>
+						</section>
+						   <section class="column-custom" style="padding: 5px; background-color:#87C6BE; width: 75%; ">
+						   
+						   <p class="tab-text-spacing"> 
+						   MSc International Health Management
+						   Core modules: Entrepreneurship, Business Plan Competition,
+						   Health Informatics, Managing Change and Innovation in Healthcare,
+						   Health Economics, Business Strategy for Global Healthcare 
+						   and Global Healthcare Marketing 
+						   </p>
+	
+						</section>
+					</aside>
+
+
+						   <aside class="row"> 
+							<section class="column-custom" style=" padding: 3px;background-color:#f7b538; width: 25%;">
+						  <ul style=" color:black; font-size: 1rem;list-style: none; display: contents;float: left;">
+						  <li> Univeristy of East London </li>
+						  <li>  London, UK</li>
+						  <li>  September 2013 – June 2017</li>
+						  </ul>
+						</section>
+						  <section class="column-custom" style="padding: 5px; background-color:#87C6BE; width: 75%; ">
+						  <p class="tab-text-spacing"> Biomedicial Science - 1st class
+						  </p>
+						</section>
+						</aside>
+						</div> 
+						  
+							
+
+
+
+						  
+						   
+
+
+
+						   <div id="tab-contents">
+							<h2 class= "stroke-text" style="text-align: right; color: #87C6BE;">Professional Certifications</h2>
+							<div class="row">
+								<div class="column-custom" style=" padding: 3px;background-color:#f7b538; width: 25%;">
+								<ul style="color:black; font-size: 1rem;list-style: none; display: contents;float: left;">
+								<li> 2019</li>
+								<li> 2020</li>
+								<li> 2021</li>
+								</ul>
+								</div>
+							  <div class="column-custom" style="padding: 5px; background-color:#87C6BE; width: 75%;">
+		
+								   <ul style="color:black; margin-bottom: 50px; padding-inline-start:1%; list-style: none; display: contents;">
+									 <li>AWS Certified Cloud Practitioner</li>
+									<li>AWS Certified Developer - Associate</li>
+									<li>HashiCorp - Terraform Associate</li>
+								   </ul>
+								   </div>
+								</div>
+								   <h2 class= "stroke-text" style="text-align: right; color: #87C6BE;">Professional Association Memberships</h2>
+								   <div class="row">
+									<div class="column-custom" style=" padding: 3px;background-color:#f7b538; width: 25%;">
+										<ul style="color:black; font-size: 1rem;list-style: none; display: contents;float: left;">
+										<li> 2019</li>
+										</ul>
+										</div>
+								   <div class="column-custom" style=" float: right; background-color:#87C6BE; width: 75%;">
+								   <ul style="color:black; margin-bottom: 50px; padding-inline-start:1%; list-style: none; display: contents;">
+									 <li>Professional Registration for IT Technicians (RITTech)</li>
+								   </ul>
+								   </div>
+								   </div>
+							
+							  </div>
+							
+
+						  </div>		
+						    
+
+						    </div>
+					
+					
+
+			  <!-- below section needs to be added on with the javascript function -->
+			  <div style="margin-top: 40%; position: absolute;" id="sm-tab-0"></div>
+			  <div style="margin-top: 180%; position: absolute;" id="sm-tab-1"></div>
+			  <div style="margin-top: 390%; position: absolute;" id="sm-tab-2"></div>
+			  <div style="margin-top: 530%; position: absolute;" id="sm-tab-3"></div>
+			 
 		
 
 		<footer class="footer" style="margin-bottom: 0%;">
@@ -93,5 +264,8 @@
 		</footer>  
 
 		</div>
-	</div>
+	</section>
 </div>
+
+</body>
+</html>
