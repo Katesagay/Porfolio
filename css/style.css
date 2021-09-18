@@ -230,6 +230,7 @@ body{
   width: 91% !important;
   margin-bottom: 10% !important;
   height: -webkit-fill-available !important;
+  overflow: scroll !important;
 
 }
 .tabs .tab-content > div {
