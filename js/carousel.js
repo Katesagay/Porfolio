@@ -22,8 +22,8 @@ function navigation_class(){
 
 	const outputElement = document.getElementById("info");
 	
-	const smallDevice = window.matchMedia("(max-width: 576px)");
-  const largeDevice = window.matchMedia("(min-width: 576px)");
+	const smallDevice = window.matchMedia("(max-width: 627px)");
+  const largeDevice = window.matchMedia("(min-width: 627px)");
 	
   smallDevice.addListener(handleDeviceChange);
   largeDevice.addListener(handlelargeDeviceChange);
@@ -79,9 +79,9 @@ function navigation_class(){
     "<div style='margin-top: 5% !important; position: absolute; height: min-content;' class='row'>"+
          '<div class="column-custom" style=" padding: 3px;background-color:#f7b538; width: 25%;">'+
          '<ul style="font-size: 1rem;list-style: none; display: contents;float: left;">'+
-         '<li>2019 - Present</li>'+
          '<li>Deloitte Consulting</li>'+
          '<li>London, United Kingdom</li>'+
+         '<li>April 2019 - Present</li>'+
          '</ul>'+
        "</div>"+
   '<div class="column-custom" style="padding: 5px; font-size: 1rem;background-color:#87C6BE; width: 75%;">'+
@@ -126,7 +126,7 @@ function navigation_class(){
         "Core modules: Java, SQL, Databases, HTML, CSS," +
         "JavaScript, API, REST, Amazon Web Services, OOP" +
         "with Java, Fresh, Linus Essentials, Introduction in" +
-        "Cybersecurity, Presentation skills and Business Consultancy 101" +
+        "Cybersecurity, Presentation skills and Business Consultancy 101. " +
         "Gained: AWS Cloud Practitioner Certification" +
         "</p>" +
         "</div>"+
@@ -164,7 +164,7 @@ function navigation_class(){
          '</ul>'+
        "</div>"+
        '<div class="column-custom" style="padding: 5px; font-size: 1rem;background-color:#87C6BE; width: 75%;">'+
-       '<p >BSc Hons Biomedicial Science - 1st Class. Clinical Biochemistry, '+
+       '<p >BSc Hons Biomedicial Science - 1st Class. Core modules: Clinical Biochemistry, '+
        "Clinical Biochemistry, Medical Microbiology, Cellular Pathology, "+
        "Clinical Immunology, Clinical Genetics, "+
        "Human Disease and Clinical Practice, Molecular Biology & Genetics, "+

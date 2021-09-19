@@ -7,6 +7,7 @@
   float: left;
   width: 50%;
   padding: 10px;
+  margin-top: 10%;
   /* height: -webkit-fill-available; Should be removed. Only for demonstration */
   }
   
@@ -217,8 +218,8 @@
 
 
 /* ------------------------------ */
-/* small screen */
-@media (max-width: 576px){
+/* small screen */ 
+@media (max-width: 627px){
 body{
   overflow-y: scroll !important;
 }
