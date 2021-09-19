@@ -245,7 +245,7 @@ body{
 }
 
 .column-wrapper-sm-index {
-  margin-top: -33% !important;
+  margin-top: -55% !important;
 }
 
 .column-wrapper-sm-project{
@@ -254,7 +254,17 @@ body{
 .column-wrapper-sm-skill{
   margin-top: 30% !important;
 }
-
+/* .tab-header{
+  margin-top: 30% !important;
+} */
+/* #sm-tab-menu{
+  top: 150% !important;
+  position: initial;
+  }  */
+  /* .sm-header{
+    top: 15%;
+    position: relative;
+  } */
 }
 @media(max-width:473px){
   .extra-sm-margin-edu-1 {

@@ -18,6 +18,16 @@ function navigation_class(){
     });
   }
 }
+function header_active(){
+  $(".nav .nav-link").on("click", function(){
+    $(".nav").find(".active2").removeClass("active2");
+    $(this).addClass("active2");
+ });
+ $(".nav .nav-link").on("click", function(){
+    $(".nav").find(".active").removeClass("active");
+    $(this).addClass("active");
+ });
+}
 
 
 	const outputElement = document.getElementById("info");
@@ -74,7 +84,7 @@ function navigation_class(){
     const myseventhNode = document.getElementById("sm-tab-0");
     seventhHtmlcode = '<div id="aboutme-nav" class="tabs" style="border-radius: 0.25rem;'+
     'background: #B6646F;'+
-    'box-shadow:  5px 5px 4px #49282c,-5px -5px 4px #ffa0b2; text-align: -webkit-center;">'+
+    'box-shadow:  5px 5px 4px #49282c,-5px -5px 4px #ffa0b2; text-align: -webkit-center; margin-top: 30% !important;">'+
     '<div id="tab-contents">' +
     '<h1 style="font-size: 1.5rem" >👋</h1>' +
 		'<h1 style="color:#87C6BE; font-size: 3rem">Hello</h1>'+
@@ -241,6 +251,7 @@ function navigation_class(){
     document.getElementById("footer-copyright").style.display = "none";
 
     navigation_class();  
+    header_active();
     
 	    }
  }
@@ -280,6 +291,7 @@ function handlelargeDeviceChange(e) {
     navNode.innerHTML =  navHtmlCode
   document.getElementById("tab-contents").style.padding = "40px 20px"
   navigation_class();
+  header_active();
   document.getElementById("footer-copyright").style.display = "";
   document.getElementById("large-tab-content").style.display = "initial";
   document.getElementById("sm-tab-0").style.display = "none";
