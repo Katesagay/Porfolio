@@ -39,11 +39,11 @@ function navigation_class(){
     const navNode = document.getElementById("sm-nav-header");
     navNode.innerHTML = ""
     navHtmlCode = 
-    '<div class="col">'+
+    '<div style="padding-right: 0% !important; padding-left: 0% !important;" class="col nav-sm ">'+
     '<a style="color: white;" class="flex-sm-fill text-sm-center nav-link active2" aria-current="page" href="index.html" >Resume</a>'+
     '<a id="skills-link" style="color: white;" class="flex-sm-fill text-sm-center nav-link"  href="#">Skills</a>'+
     '</div>'+
-    '<div class="col">'+
+    '<div style="padding-right: 0% !important; padding-left: 0% !important;" class="col nav-sm ">'+
     '<a id="projects-link" style="color: white;" class="flex-sm-fill text-sm-center nav-link" href="#">Projects</a>'+
     '<a id="contact-link" style="color: white;" class="flex-sm-fill text-sm-center nav-link" href="#">Contact</a>'+
     '</div>'

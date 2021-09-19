@@ -14,7 +14,7 @@
     overflow: hidden;
     position: relative;
     text-align: center;
-    cursor: default;
+    cursor: pointer;
 }
 .hovereffect .overlay {
     width: 100%;

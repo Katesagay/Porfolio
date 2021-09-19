@@ -245,14 +245,16 @@ body{
 }
 
 .column-wrapper-sm-index {
-  margin-top: -11% !important;
+  margin-top: -33% !important;
 }
-.column-wrapper-sm-contact{
-  margin-top: 8% !important;
+
+.column-wrapper-sm-project{
+  margin-top: 30% !important;
 }
-.nav-sm{
-  margin-top: 10%;
+.column-wrapper-sm-skill{
+  margin-top: 30% !important;
 }
+
 }
 @media(max-width:473px){
   .extra-sm-margin-edu-1 {
@@ -286,6 +288,12 @@ body{
   .extra-sm-margin-edu-2 {
     margin-top: 250% !important;
   }
+  .logo {
+    width: 134px !important;
+  }
+  /* .nav-sm {
+    margin-top: 44%;
+  } */
 }
 
 
