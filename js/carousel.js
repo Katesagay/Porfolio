@@ -84,7 +84,7 @@ function header_active(){
     const myseventhNode = document.getElementById("sm-tab-0");
     seventhHtmlcode = '<div id="aboutme-nav" class="tabs" style="border-radius: 0.25rem;'+
     'background: #B6646F;'+
-    'box-shadow:  5px 5px 4px #49282c,-5px -5px 4px #ffa0b2; text-align: -webkit-center; margin-top: 30% !important;">'+
+    'box-shadow:  5px 5px 4px #49282c,-5px -5px 4px #ffa0b2; text-align: -webkit-center; margin-top: 170% !important;">'+
     '<div id="tab-contents">' +
     '<h1 style="font-size: 1.5rem" >👋</h1>' +
 		'<h1 style="color:#87C6BE; font-size: 3rem">Hello</h1>'+
@@ -109,7 +109,7 @@ function header_active(){
        "</div>"+
   '<div class="column-custom" style="padding: 5px; font-size: 1rem;background-color:#87C6BE; width: 75%;">'+
   
- " <ul style='list-style: none;' class='tab-text-spacing'>"+
+ " <ul style='list-style: none; padding: 0;' >"+
   "<li> Developed monitoring system templates for product teams.</li>"+
   "<li> Escalated and triaged with product teams on technical issues and trends.</li>"+
   "<li> Automated alert response processes through slack integration and aws for alert response  - leading to better real-time collaborative response from on-call responders.</li>"+

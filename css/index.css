@@ -264,4 +264,5 @@ body::-webkit-scrollbar-thumb {
 #sm-tab-menu{
     text-align: center;
     margin-top: 100%;
+    display: none;
 }
