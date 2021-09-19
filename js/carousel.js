@@ -36,6 +36,19 @@ function navigation_class(){
     document.getElementById("sm-tab-2").style.display = "initial";
     document.getElementById("sm-tab-3").style.display = "initial";
 		document.getElementById("tab-indicator-menu").style.display = "none";
+    const navNode = document.getElementById("sm-nav-header");
+    navNode.innerHTML = ""
+    navHtmlCode = 
+    '<div class="col">'+
+    '<a style="color: white;" class="flex-sm-fill text-sm-center nav-link active2" aria-current="page" href="index.html" >Resume</a>'+
+    '<a id="skills-link" style="color: white;" class="flex-sm-fill text-sm-center nav-link"  href="#">Skills</a>'+
+    '</div>'+
+    '<div class="col">'+
+    '<a id="projects-link" style="color: white;" class="flex-sm-fill text-sm-center nav-link" href="#">Projects</a>'+
+    '<a id="contact-link" style="color: white;" class="flex-sm-fill text-sm-center nav-link" href="#">Contact</a>'+
+    '</div>'
+    navNode.innerHTML =  navHtmlCode
+
 		const myNode = document.getElementById("tab-menu");
 		myNode.innerHTML = ""
 		const mySecondNode = document.getElementById("sm-tab-menu");
@@ -85,22 +98,29 @@ function navigation_class(){
          '</ul>'+
        "</div>"+
   '<div class="column-custom" style="padding: 5px; font-size: 1rem;background-color:#87C6BE; width: 75%;">'+
-  '<p >Developed monitoring system templates for product teams. '+
-  "Escalated and triaged with product teams on technical issues and trends. "+
-  "Automated alert response processes through slack integration and aws for alert response  - leading to better real-time collaborative response from on-call responders. "+
-  "Capture and analyze major metrics such as throttling, percentage errors and and develop new metrics and KPIs as necessary - add these metrics to monitoring dashboards. "+
-  "Update runbooks, tools and documentation to facilitate and prepare on-call teams for future incidents. "+
-  "Developed complex and dynamic Tableau dashboards. "+
-  "Reviewing Pull Requests. " +
-	"Peer programming. "+
-  "Mentoring Junior Developers. " +
-	"Communication Lead of Engineering guild. "+
-	"International Business Travel. "+
-  "Built web connector to feed open-sourced data into Tableau and created diagrams to provide insight. "+
-  "Created Lambda function with python on AWS to transform data and feed into MySQL - ETL. "+
-  "Custom-built Lambda Layers on Linux platform provided on an Amazon EC2 Instance. " +
-  "Query log insights to troubleshoot and investigate incidences. Technologies used: Terraform, Python, Bash, Amazon Web Services, Azure, PagerDuty, Slack.</p>" +
-"</div>"+
+  
+ " <ul style='list-style: none;' class='tab-text-spacing'>"+
+  "<li> Developed monitoring system templates for product teams.</li>"+
+  "<li> Escalated and triaged with product teams on technical issues and trends.</li>"+
+  "<li> Automated alert response processes through slack integration and aws for alert response  - leading to better real-time collaborative response from on-call responders.</li>"+
+   " <li> Capture and analyze major metrics such as throttling, percentage errors and and develop new metrics and KPIs as necessary - add these metrics to monitoring dashboards.</li>"+
+      "<li> Update runbooks, tools and documentation to facilitate and prepare on-call teams for future incidents.</li>"+
+        "<li> Developed complex and dynamic Tableau dashboards.</li>"+
+         " <li> Reviewing Pull Requests.</li>"+
+           " <li> Peer programming.</li>"+
+             " <li> Built web connector to feed open-sourced data into Tableau and created diagrams to provide insight.</li>"+
+               " <li> Created Lambda function with python on AWS to transform data and feed into MySQL - ETL.</li>"+
+                 " <li> Custom-built Lambda Layers on Linux platform provided on an Amazon EC2 Instance.</li>"+
+                   " <li> Query log insights to troubleshoot and investigate incidences.</li>"+
+                    "  <li> Mentoring Junior Developers.</li>"+
+                       " <li> Communication Lead of Engineering guild.</li>"+
+                          "<li> International Business Travel.</li>"+
+                           " <li> Technologies used: Terraform, Python, Bash, Amazon Web Services, Azure, PagerDuty, Slack</li>"+
+"</ul>"+
+
+
+
+  "</div>"+
 "</div>"+
   '</div>'+
    ' </div>'
@@ -250,6 +270,14 @@ function handlelargeDeviceChange(e) {
             '</div>'+
             '</div>'
   mythirdNode.innerHTML = Reverthtmlcode
+  const navNode = document.getElementById("sm-nav-header");
+    navNode.innerHTML = ""
+    navHtmlCode = 
+    '<a style="color: white;" class="flex-sm-fill text-sm-center nav-link active2" aria-current="page" href="index.html" >Resume</a>'+
+    '<a id="skills-link" style="color: white;" class="flex-sm-fill text-sm-center nav-link"  href="#">Skills</a>'+
+    '<a id="projects-link" style="color: white;" class="flex-sm-fill text-sm-center nav-link" href="#">Projects</a>'+
+    '<a id="contact-link" style="color: white;" class="flex-sm-fill text-sm-center nav-link" href="#">Contact</a>'
+    navNode.innerHTML =  navHtmlCode
   document.getElementById("tab-contents").style.padding = "40px 20px"
   navigation_class();
   document.getElementById("footer-copyright").style.display = "";
