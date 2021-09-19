@@ -243,12 +243,14 @@ body{
   display: block;
   padding: 0.5rem 0.7em !important;
 }
-.nav {
-  margin-top: 11% !important;
+
+.column-wrapper-sm-index {
+  margin-top: -11% !important;
 }
-.column-wrapper{
-  margin-top: -24% !important;
+.column-wrapper-sm-contact{
+  margin-top: 8% !important;
 }
+
 }
 
 @media(min-width: 1400px){
