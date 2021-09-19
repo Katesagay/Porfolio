@@ -85,7 +85,7 @@ function navigation_class(){
          '</ul>'+
        "</div>"+
   '<div class="column-custom" style="padding: 5px; font-size: 1rem;background-color:#87C6BE; width: 75%;">'+
-  '<p class="tab-text-spacing">Developed monitoring system templates for product teams. '+
+  '<p >Developed monitoring system templates for product teams. '+
   "Escalated and triaged with product teams on technical issues and trends. "+
   "Automated alert response processes through slack integration and aws for alert response  - leading to better real-time collaborative response from on-call responders. "+
   "Capture and analyze major metrics such as throttling, percentage errors and and develop new metrics and KPIs as necessary - add these metrics to monitoring dashboards. "+
@@ -120,9 +120,9 @@ function navigation_class(){
         '<li>  January 2019 – March 2019</li>'+
         '</ul>'+
         "</div>"+
-        '<div class="column-custom" style="padding: 5px; font-size: 1rem;background-color:#87C6BE; width: 75%;>'+
-        '<p class="tab-text-spacing">' +
-        " Deloitte Northern Ireland Technology Academy"+
+        '<div class="column-custom" style="padding: 5px; font-size: 1rem;background-color:#87C6BE; width: 75%;">'+
+        '<p>' +
+        "Deloitte Northern Ireland Technology Academy. "+
         "Core modules: Java, SQL, Databases, HTML, CSS," +
         "JavaScript, API, REST, Amazon Web Services, OOP" +
         "with Java, Fresh, Linus Essentials, Introduction in" +
@@ -143,11 +143,12 @@ function navigation_class(){
       '</ul>'+
       "</div>"+
       '<div class="column-custom" style=" list-style: none; padding: 5px; font-size: 1rem; background-color: #87C6BE; width: 75%;">'+
-      '<p class="tab-text-spacing"> MSc International Health Management' +
+      '<p >'+
+      "MSc International Health Management. " +
       "Core modules: Entrepreneurship, Business Plan Competition, " +
-      "Health Informatics, Managing Change and Innovation in Healthcare," +
+      "Health Informatics, Managing Change and Innovation in Healthcare, " +
       "Health Economics, Business Strategy for Global Healthcare " +
-      "and Global Healthcare Marketing " +
+      "and Global Healthcare Marketing" +
       "</p>" +
       "</div>"+
       '</div>'+
@@ -163,7 +164,7 @@ function navigation_class(){
          '</ul>'+
        "</div>"+
        '<div class="column-custom" style="padding: 5px; font-size: 1rem;background-color:#87C6BE; width: 75%;">'+
-       '<p class="tab-text-spacing">BSc Hons Biomedicial Science - 1st Class. Clinical Biochemistry, '+
+       '<p >BSc Hons Biomedicial Science - 1st Class. Clinical Biochemistry, '+
        "Clinical Biochemistry, Medical Microbiology, Cellular Pathology, "+
        "Clinical Immunology, Clinical Genetics, "+
        "Human Disease and Clinical Practice, Molecular Biology & Genetics, "+
@@ -205,7 +206,7 @@ function navigation_class(){
 		"</ul>"+
 		"</div>"+
 		"<div class='column-custom' style=' float: right; font-size: 1rem;background-color:#87C6BE; width: 75%;'>"+
-		"<ul style='margin-bottom: 50px; padding-inline-start:1%; list-style: none; display: contents;'>"+
+		"<ul style=' text-align: right; margin-bottom: 50px; padding-inline-start:1%; list-style: none; display: contents;'>"+
 		"<li>Professional Registration for IT Technicians (RITTech)</li>"+
 		"</ul>"+
 		"</div>"+
