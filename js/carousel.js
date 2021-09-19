@@ -40,7 +40,7 @@ function navigation_class(){
 		myNode.innerHTML = ""
 		const mySecondNode = document.getElementById("sm-tab-menu");
 		htmlcode =  //style="color: #87C6BE;" add actiive color
-            '<div  class="tab-header" style=" width: 100%; display: flow-root; overflow: unset; color: #B6646F; -webkit-text-stroke: 0.5px black; -webkit-font-smoothing: antialiased; font-size: x-large;"> '+
+            '<div  class="tab-header" style="width: 100%; display: flow-root; overflow: unset; color: #B6646F; -webkit-text-stroke: 0.5px black; -webkit-font-smoothing: antialiased; font-size: x-large;"> '+
             '<div style="margin: 1%;" >'+
             '<a class="stroke-text"  style="color: #87C6BE;" href="#aboutMe-nav">ABOUT ME</a>' +
             '</div>'+
@@ -135,14 +135,14 @@ function navigation_class(){
 
          
       "<div style='margin-top: 70% !important; position: absolute; height: min-content; ' class='row'>"+
-      '<div class="column-custom" style=" padding: 3px;background-color:#f7b538; width: 25%;">'+
+      '<div class="column-custom  extra-sm-margin-edu-1" style=" padding: 3px;background-color:#f7b538; width: 25%;">'+
       '<ul style="font-size: 1rem;list-style: none; display: contents;float: left;">'+
       '<li>Imperial College Business School </li>'+
       '<li>London, UK</li>'+
       '<li>October 2017 – September 2017</li>'+
       '</ul>'+
       "</div>"+
-      '<div class="column-custom" style=" list-style: none; padding: 5px; font-size: 1rem; background-color: #87C6BE; width: 75%;">'+
+      '<div class="column-custom  extra-sm-margin-edu-1" style=" list-style: none; padding: 5px; font-size: 1rem; background-color: #87C6BE; width: 75%;">'+
       '<p >'+
       "MSc International Health Management. " +
       "Core modules: Entrepreneurship, Business Plan Competition, " +
@@ -155,15 +155,15 @@ function navigation_class(){
       
 
 
-         '<div style="margin-top: 135% !important; position: absolute; height: min-content; " class="row">' +
-         '<div class="column-custom" style=" padding: 3px;background-color:#f7b538; width: 25%;">'+
+         '<div style="margin-top: 135% !important; position: absolute; height: min-content; " class="row extra-sm-margin-edu-2">' +
+         '<div class="column-custom  extra-sm-margin-edu-2 " style=" padding: 3px;background-color:#f7b538; width: 25%;">'+
          '<ul style="font-size: 1rem;list-style: none; display: contents;float: left;">'+
          '<li> Univeristy of East London </li>'+
          '<li> London, UK </li>'+
          '<li> September 2013 – June 2017</li>'+
          '</ul>'+
        "</div>"+
-       '<div class="column-custom" style="padding: 5px; font-size: 1rem;background-color:#87C6BE; width: 75%;">'+
+       '<div class="column-custom  extra-sm-margin-edu-2" style="padding: 5px; font-size: 1rem;background-color:#87C6BE; width: 75%;">'+
        '<p >BSc Hons Biomedicial Science - 1st Class. Core modules: Clinical Biochemistry, '+
        "Clinical Biochemistry, Medical Microbiology, Cellular Pathology, "+
        "Clinical Immunology, Clinical Genetics, "+
@@ -173,13 +173,13 @@ function navigation_class(){
        "Fundamentals in Human Anatomy and Physiology, Fundamentals in Microbiology </p>" +
      "</div>"+
        '</div>'+
-        ' </div>'+
+        ' </div>'+ 
         ' </div>' 
     mysixthNode.innerHTML = sixthHtmlcode
     const ProfessionalCertNode = document.getElementById("sm-tab-3");
     ProfessionalCertHTML = '<div id="certifications-nav" class="tabs" style="border-radius: 0.25rem;'+
     'background: #B6646F;'+
-    'box-shadow:  5px 5px 4px #49282c,-5px -5px 4px #ffa0b2; padding: 15px 10px; top: 32%; height: min-content !important;">'+
+    'box-shadow:  5px 5px 4px #49282c,-5px -5px 4px #ffa0b2; padding: 15px 10px; top: 50%; height: min-content !important;">'+
     '<div id="tab-contents">' +
     "<h2 class= 'stroke-text' style='text-align: right;  color: #87C6BE;'>Professional Certifications</h2>"+
     "<div class='row'>"+
