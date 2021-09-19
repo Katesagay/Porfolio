@@ -84,22 +84,22 @@ function navigation_class(){
          '<li>London, United Kingdom</li>'+
          '</ul>'+
        "</div>"+
-  '<div class="column-custom" style="padding: 5px; font-size: 1rem;background-color:#87C6BE; width: 75%;>'+
-  '<p style="list-style: none;">Developed monitoring system templates for product teams'+
-  "Escalated and triaged with product teams on technical issues and trends"+
-  "Automated alert response processes through slack integration and aws for alert response  - leading to better real-time collaborative response from on-call responders"+
-  "Capture and analyze major metrics such as throttling, percentage errors and and develop new metrics and KPIs as necessary - add these metrics to monitoring dashboards"+
-  "Update runbooks, tools and documentation to facilitate and prepare on-call teams for future incidents"+
-  "Developed complex and dynamic Tableau dashboards "+
-  "Reviewing Pull Requests." +
-	"Peer programming."+
-  "Mentoring Junior Developers." +
-	"Communication Lead of Engineering guild."+
-	"International Business Travel."+
-  "Built web connector to feed open-sourced data into Tableau and created diagrams to provide insight "+
-  "Created Lambda function with python on AWS to transform data and feed into MySQL - ETL"+
-  "Custom-built Lambda Layers on Linux platform provided on an Amazon EC2 Instance" +
-  "Query log insights to troubleshoot and investigate incidences. Technologies used: Terraform, Python, Bash, Amazon Web Services, Azure, PagerDuty, Slack</p>"
+  '<div class="column-custom" style="padding: 5px; font-size: 1rem;background-color:#87C6BE; width: 75%;">'+
+  '<p class="tab-text-spacing">Developed monitoring system templates for product teams. '+
+  "Escalated and triaged with product teams on technical issues and trends. "+
+  "Automated alert response processes through slack integration and aws for alert response  - leading to better real-time collaborative response from on-call responders. "+
+  "Capture and analyze major metrics such as throttling, percentage errors and and develop new metrics and KPIs as necessary - add these metrics to monitoring dashboards. "+
+  "Update runbooks, tools and documentation to facilitate and prepare on-call teams for future incidents. "+
+  "Developed complex and dynamic Tableau dashboards. "+
+  "Reviewing Pull Requests. " +
+	"Peer programming. "+
+  "Mentoring Junior Developers. " +
+	"Communication Lead of Engineering guild. "+
+	"International Business Travel. "+
+  "Built web connector to feed open-sourced data into Tableau and created diagrams to provide insight. "+
+  "Created Lambda function with python on AWS to transform data and feed into MySQL - ETL. "+
+  "Custom-built Lambda Layers on Linux platform provided on an Amazon EC2 Instance. " +
+  "Query log insights to troubleshoot and investigate incidences. Technologies used: Terraform, Python, Bash, Amazon Web Services, Azure, PagerDuty, Slack.</p>" +
 "</div>"+
 "</div>"+
   '</div>'+
@@ -121,7 +121,7 @@ function navigation_class(){
         '</ul>'+
         "</div>"+
         '<div class="column-custom" style="padding: 5px; font-size: 1rem;background-color:#87C6BE; width: 75%;>'+
-        '<p style=" list-style: none;">' +
+        '<p class="tab-text-spacing">' +
         " Deloitte Northern Ireland Technology Academy"+
         "Core modules: Java, SQL, Databases, HTML, CSS," +
         "JavaScript, API, REST, Amazon Web Services, OOP" +
@@ -143,7 +143,7 @@ function navigation_class(){
       '</ul>'+
       "</div>"+
       '<div class="column-custom" style=" list-style: none; padding: 5px; font-size: 1rem; background-color: #87C6BE; width: 75%;">'+
-      '<p> MSc International Health Management' +
+      '<p class="tab-text-spacing"> MSc International Health Management' +
       "Core modules: Entrepreneurship, Business Plan Competition, " +
       "Health Informatics, Managing Change and Innovation in Healthcare," +
       "Health Economics, Business Strategy for Global Healthcare " +
@@ -163,10 +163,13 @@ function navigation_class(){
          '</ul>'+
        "</div>"+
        '<div class="column-custom" style="padding: 5px; font-size: 1rem;background-color:#87C6BE; width: 75%;">'+
-       '<ul style=" list-style: none; margin-bottom: 50px;">' +
-       '<li style=" list-style: none;"> Biomedicial Science - 1st class </li>' +
-     "</ul>"+
-     
+       '<p class="tab-text-spacing">BSc Hons Biomedicial Science - 1st Class. Clinical Biochemistry, '+
+       "Clinical Biochemistry, Medical Microbiology, Cellular Pathology, "+
+       "Clinical Immunology, Clinical Genetics, "+
+       "Human Disease and Clinical Practice, Molecular Biology & Genetics, "+
+       "Infection & Immunity, Cellular Biochemistry, Haematology and Transfusion Science, "+
+       "Essential Chemistry, Cell Biology, Introduction to Biochemistry and Molecular Biology, "+
+       "Fundamentals in Human Anatomy and Physiology, Fundamentals in Microbiology </p>" +
      "</div>"+
        '</div>'+
         ' </div>'+
@@ -196,7 +199,7 @@ function navigation_class(){
     "</div>"+
     "<h2 class= 'stroke-text' style='text-align: right; color: #87C6BE;'>Professional Association Memberships</h2>"+
     "<div class='row'>"+
-		"<div class='column-custom' style= 'padding: 3px;background-color:#f7b538; width: 25%;'>"+
+		"<div class='column-custom' style='padding: 3px; background-color:#f7b538; width: 25%;'>"+
 		"<ul style='font-size: 1rem;list-style: none; display: contents;float: left;'>"+
 		"<li>2019</li>"+
 		"</ul>"+

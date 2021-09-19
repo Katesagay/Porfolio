@@ -20,6 +20,7 @@ body {
     -webkit-box-sizing: border-box; 
     -moz-box-sizing: border-box ; 
     box-sizing: border-box ; 
+    color: black !important;
     /* background-image: url(/img/honeycomb-svgrepo-com.svg) !important;  */
     background-image: url(/img/Honeycomb.svg) !important; 
   
@@ -31,6 +32,34 @@ html,body{
     margin:0;
     padding:0;
    overflow: hidden;
+}
+
+body::-webkit-scrollbar {
+    width: 5px;
+    height: 10px;
+    background-color: transparent; /* or add it to the track */
+} 
+  
+
+.tabs::-webkit-scrollbar {
+    width: 5px;
+    height: 10px;
+    background-color: transparent; /* or add it to the track */
+} 
+.tab-content::-webkit-scrollbar {
+    width: 5px;
+    height: 10px;
+    background-color: transparent; /* or add it to the track */
+} 
+
+body::-webkit-scrollbar-thumb {
+    background: #000;
+}
+.tabs::-webkit-scrollbar-thumb {
+    background: #000;
+}
+.tab-content::-webkit-scrollbar-thumb {
+    background: #000;
 }
 
 /*******************************************************************************************************************************************/

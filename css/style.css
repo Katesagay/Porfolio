@@ -17,9 +17,6 @@
   clear: both;
   }
 
-
-
-
 * {
   font-family: "Baloo";
   font-weight: normal; }
@@ -223,7 +220,7 @@
 /* small screen */
 @media (max-width: 576px){
 body{
-  overflow: scroll !important;
+  overflow-y: scroll !important;
 }
 .tabs {
   position: relative !important;
@@ -246,7 +243,10 @@ body{
   padding: 0.5rem 0.7em !important;
 }
 .nav {
-  margin-top: 9% !important;
+  margin-top: 11% !important;
+}
+.column-wrapper{
+  margin-top: -24% !important;
 }
 }
 
