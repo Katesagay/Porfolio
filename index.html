@@ -13,6 +13,7 @@
 	<link rel="stylesheet" href="css/skill.css">
 	<link rel="stylesheet" href="css/contact.css">
 	<link rel="stylesheet" href="css/carousel.css">
+	<link rel="stylesheet" href="css/normalise.css">
 	<!-- Javascript -->
 	
 	<script defer src="js/carousel.js"></script>
@@ -28,6 +29,7 @@
 
 </head>
 <body>
+	<!-- social images needs to be square not circle  -->
 <header class="sm-header" style="width: 100%; background-color: #ff90a0;
 top: 0px !important;
     position: absolute;
@@ -36,9 +38,16 @@ top: 0px !important;
 	z-index: 1;
 ">
 <div class="logo">
-	<a  class="kunbee" href="index.html">KUNBEE</a>
+	<a  class="kunbee" href="index.html">KUNBEE</a> 
 </div>
-
+<div id="sm-nav-social" style="position: absolute; left: 44%; height: 30% !important; width: 136px;">
+	<a style="padding: 4%;" href="https://github.com/Katesagay">
+		<img class="socialmedia-img" src="img/iconmonstr-github-3.svg">
+	</a>
+	<a style="padding: 4%;" href="https://www.linkedin.com/in/kate-kunbi-sagay/">
+		<img class="socialmedia-img" src="img/iconmonstr-linkedin-3.svg">
+	</a>
+</div>
   <nav id="sm-nav-header" style="float: right;" class=" nav  nav-pills justify-content-end flex-column-custom flex-sm-row">
 	<a style="color: white;" class="flex-sm-fill text-sm-center nav-link active2" aria-current="page" href="index.html" >Resume</a>
 	<a id="skills-link" style="color: white;" class="flex-sm-fill text-sm-center nav-link"  href="#">Skills</a> 
@@ -104,7 +113,7 @@ $(".nav .nav-link").on("click", function(){
 				  </div>
 				  
 				  <div id="tab-contents">
-					<h2 class= "stroke-text" style="color: #87C6BE;" >EXPERIENCES</h2>
+					<h2 class= "stroke-text" style="color: #87C6BE;" >EXPERIENCE</h2>
 					<aside class="row">
 						<section class="column-custom" style=" padding: 3px; background-color:#f7b538; width: 25%;">
 							<ul style="color: black; font-size: 1rem;list-style: none; display: contents;float: left;">
@@ -227,7 +236,7 @@ $(".nav .nav-link").on("click", function(){
 								<ul style="color:black; font-size: 1rem;list-style: none; display: contents;float: left;">
 								<li> 2019</li>
 								<li> 2020</li>
-								<li> 2021</li>
+								<!-- <li> 2021</li> -->
 								</ul>
 								</div>
 							  <div class="column-custom" style="padding: 5px; background-color:#87C6BE; width: 75%;">
@@ -235,7 +244,7 @@ $(".nav .nav-link").on("click", function(){
 								   <ul style="color:black; margin-bottom: 50px; padding-inline-start:1%; list-style: none; display: contents;">
 									 <li>AWS Certified Cloud Practitioner</li>
 									<li>AWS Certified Developer - Associate</li>
-									<li>HashiCorp - Terraform Associate</li>
+									<!-- <li>HashiCorp - Terraform Associate</li> -->
 								   </ul>
 								   </div>
 								</div>

@@ -32,8 +32,8 @@ function header_active(){
 
 	const outputElement = document.getElementById("info");
 	
-	const smallDevice = window.matchMedia("(max-width: 627px)");
-  const largeDevice = window.matchMedia("(min-width: 627px)");
+	const smallDevice = window.matchMedia("(max-width: 677px)");
+  const largeDevice = window.matchMedia("(min-width: 677px)");
 	
   smallDevice.addListener(handleDeviceChange);
   largeDevice.addListener(handlelargeDeviceChange);
@@ -41,7 +41,7 @@ function header_active(){
 	function handleDeviceChange(e) {
    
 	if(e.matches){
-    document.getElementById("sm-tab-0").style.display = "initial";
+    document.getElementById("sm-tab-0").style.display = "inline-flex";
     document.getElementById("sm-tab-1").style.display = "initial";
     document.getElementById("sm-tab-2").style.display = "initial";
     document.getElementById("sm-tab-3").style.display = "initial";
@@ -58,6 +58,20 @@ function header_active(){
     '<a id="contact-link" style="color: white;" class="flex-sm-fill text-sm-center nav-link" href="#">Contact</a>'+
     '</div>'
     navNode.innerHTML =  navHtmlCode
+    const socialNode = document.getElementById("sm-nav-social");
+    socialNode.innerHTML = ""
+    socialHtmlCode = 
+    '<div style="padding-right: 0% !important; padding-left: 0% !important;" class="col nav-sm ">'+
+    '<a  style="padding: 4%;" href="https://github.com/Katesagay">' +
+		'<img class="socialmedia-img" src="img/iconmonstr-github-3.svg">'+
+	'</a>'+
+    '</div>'+
+    '<div style="padding-right: 0% !important; padding-left: 0% !important;" class="col nav-sm ">'+
+    '<a  style="padding: 4%;" href="https://www.linkedin.com/in/kate-kunbi-sagay/">'+
+		'<img class="socialmedia-img" src="img/iconmonstr-linkedin-3.svg">'+
+	'</a>'+
+    '</div>'
+    socialNode.innerHTML =  socialHtmlCode
 
 		const myNode = document.getElementById("tab-menu");
 		myNode.innerHTML = ""
@@ -68,7 +82,7 @@ function header_active(){
             '<a class="stroke-text"  style="color: #87C6BE;" href="#aboutMe-nav">ABOUT ME</a>' +
             '</div>'+
             '<div style="margin: 1%;">'+
-            '<a class="stroke-text"  style="color: #87C6BE;" href="#experiences-nav"> EXPERIENCES </a> '+
+            '<a class="stroke-text"  style="color: #87C6BE;" href="#experiences-nav"> EXPERIENCE </a> '+
             '</div>'+
             '<div style="margin: 1%;">'+
             '<a class="stroke-text"  style="color: #87C6BE;" href="#education-nav">EDUCATION</a>'+
@@ -82,9 +96,9 @@ function header_active(){
     // location.reload();
     document.getElementById("large-tab-content").style.display = "none";
     const myseventhNode = document.getElementById("sm-tab-0");
-    seventhHtmlcode = '<div id="aboutme-nav" class="tabs" style="border-radius: 0.25rem;'+
+    seventhHtmlcode = '<div id="aboutme-nav" class="tabs sm-aboutme" style="border-radius: 0.25rem;'+
     'background: #B6646F;'+
-    'box-shadow:  5px 5px 4px #49282c,-5px -5px 4px #ffa0b2; text-align: -webkit-center; margin-top: 170% !important;">'+
+    'box-shadow:  5px 5px 4px #49282c,-5px -5px 4px #ffa0b2; text-align: -webkit-center; margin-top: 625px;">'+
     '<div id="tab-contents">' +
     '<h1 style="font-size: 1.5rem" >👋</h1>' +
 		'<h1 style="color:#87C6BE; font-size: 3rem">Hello</h1>'+
@@ -98,7 +112,7 @@ function header_active(){
     'background: #B6646F;'+
     'box-shadow:  5px 5px 4px #49282c,-5px -5px 4px #ffa0b2;">'+
     '<div id="tab-contents">' +
-    "<h2 class= 'stroke-text' style='color: #87C6BE;'>EXPERIENCES</h2>"+
+    "<h2 class= 'stroke-text' style='color: #87C6BE;'>EXPERIENCE</h2>"+
     "<div style='margin-top: 5% !important; position: absolute; height: min-content;' class='row'>"+
          '<div class="column-custom" style=" padding: 3px;background-color:#f7b538; width: 25%;">'+
          '<ul style="font-size: 1rem;list-style: none; display: contents;float: left;">'+
@@ -217,7 +231,7 @@ function header_active(){
     '<ul style="font-size: 1rem;list-style: none; display: contents;float: left;">'+
     '<li> 2019</li>'+
     '<li> 2020</li>'+
-    '<li> 2021</li>'+
+    // '<li> 2021</li>'+
     '</ul>'+
     '</div>'+
     '<div class="column-custom" style=" padding: 3px;background-color:#87C6BE; width: 75%;">'+
@@ -225,7 +239,7 @@ function header_active(){
     "<ul style='list-style: none;'>"+
     "<li>AWS Certified Cloud Practitioner</li>"+
     "<li>AWS Certified Developer - Associate</li>"+
-    "<li>HashiCorp - Terraform Associate</li>"+
+    // "<li>HashiCorp - Terraform Associate</li>"+
     "</ul>"+
     "</div>"+
     "<h2 class= 'stroke-text' style='text-align: right; color: #87C6BE;'>Professional Association Memberships</h2>"+
@@ -271,7 +285,7 @@ function handlelargeDeviceChange(e) {
             '<i class="tab-selector fa fa-code test"></i> ABOUT ME'+
             '</div>'+
             '<div>'+
-            '<i class=" tab-selector fa fa-pencil-square test" ></i> EXPERIENCES'+
+            '<i class=" tab-selector fa fa-pencil-square test" ></i> EXPERIENCE'+
             '</div>'+
             '<div>'+
             ' <i class=" tab-selector fa fa-bar-chart test" ></i> EDUCATION'+
@@ -289,6 +303,17 @@ function handlelargeDeviceChange(e) {
     '<a id="projects-link" style="color: white;" class="flex-sm-fill text-sm-center nav-link" href="#">Projects</a>'+
     '<a id="contact-link" style="color: white;" class="flex-sm-fill text-sm-center nav-link" href="#">Contact</a>'
     navNode.innerHTML =  navHtmlCode
+    const socialNode = document.getElementById("sm-nav-social");
+    socialNode.innerHTML = ""
+    socialHtmlCode = 
+    '<a  style="padding: 4%;" href="https://github.com/Katesagay">' +
+		'<img class="socialmedia-img" src="img/iconmonstr-github-3.svg">'+
+	'</a>'+
+    '<a  style="padding: 4%;" href="https://www.linkedin.com/in/kate-kunbi-sagay/">'+
+		'<img class="socialmedia-img" src="img/iconmonstr-linkedin-3.svg">'+
+	'</a>'
+    socialNode.innerHTML =  socialHtmlCode
+
   document.getElementById("tab-contents").style.padding = "40px 20px"
   navigation_class();
   header_active();

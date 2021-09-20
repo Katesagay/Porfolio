@@ -219,7 +219,7 @@
 
 /* ------------------------------ */
 /* small screen */ 
-@media (max-width: 627px){
+@media (max-width: 677px){
 body{
   overflow-y: scroll !important;
 }
@@ -272,6 +272,9 @@ body{
   }
   .extra-sm-margin-edu-2 {
     margin-top: 100% !important;
+  }
+  .sm-aboutme{
+    margin-top: 675px !important;
   }
 }
 @media(max-width:407px){
