@@ -113,7 +113,7 @@ function header_active(){
     'box-shadow:  5px 5px 4px #49282c,-5px -5px 4px #ffa0b2;">'+
     '<div id="tab-contents">' +
     "<h2 class= 'stroke-text' style='color: #87C6BE;'>EXPERIENCE</h2>"+
-    "<div style='margin-top: 5% !important; position: absolute; height: min-content;' class='row'>"+
+    "<div style='margin-bottom: 15% !important; margin-top: 5% !important; position: absolute; height: min-content;' class='row' >"+
          '<div class="column-custom" style=" padding: 3px;background-color:#f7b538; width: 25%;">'+
          '<ul style="font-size: 1rem;list-style: none; display: contents;float: left;">'+
          '<li>Deloitte Consulting</li>'+
@@ -156,7 +156,7 @@ function header_active(){
          '<div id="tab-contents">' +
          "<h2 class= 'stroke-text' style='color: #87C6BE;'>EDUCATION</h2>" +
 
-        "<div style='margin-top: 5% !important; position: absolute; height: min-content; ' class='row'>"+
+        "<div style='margin-top: 5% !important; position: absolute; height: min-content; margin-bottom: 15% !important; ' class='row' >"+
         '<div class="column-custom" style=" padding: 3px;background-color:#f7b538; width: 25%;">'+
         '<ul style="font-size: 1rem;list-style: none; display: contents;float: left;">'+
         '<li>  Belfast Metropolitan College </li>'+
@@ -178,7 +178,7 @@ function header_active(){
         
 
          
-      "<div style='margin-top: 70% !important; position: absolute; height: min-content; ' class='row'>"+
+      "<div style='margin-top: 70% !important; position: absolute; height: min-content; margin-bottom: 15% !important; ' class='row' >"+
       '<div class="column-custom  extra-sm-margin-edu-1" style=" padding: 3px;background-color:#f7b538; width: 25%;">'+
       '<ul style="font-size: 1rem;list-style: none; display: contents;float: left;">'+
       '<li>Imperial College Business School </li>'+
@@ -199,7 +199,7 @@ function header_active(){
       
 
 
-         '<div style="margin-top: 135% !important; position: absolute; height: min-content; " class="row extra-sm-margin-edu-2">' +
+         '<div style="margin-top: 135% !important; position: absolute; height: min-content; " class="row sm-resume-row extra-sm-margin-edu-2">' +
          '<div class="column-custom  extra-sm-margin-edu-2 " style=" padding: 3px;background-color:#f7b538; width: 25%;">'+
          '<ul style="font-size: 1rem;list-style: none; display: contents;float: left;">'+
          '<li> Univeristy of East London </li>'+
@@ -226,7 +226,7 @@ function header_active(){
     'box-shadow:  5px 5px 4px #49282c,-5px -5px 4px #ffa0b2; padding: 15px 10px; top: 50%; height: min-content !important;">'+
     '<div id="tab-contents">' +
     "<h2 class= 'stroke-text' style='text-align: right;  color: #87C6BE;'>Professional Certifications</h2>"+
-    "<div class='row'>"+
+    "<div style= 'margin-bottom: 15% !important;' class='row' >"+
     '<div class="column-custom" style=" padding: 3px;background-color:#f7b538; width: 25%;">'+
     '<p> 2019</p>'+
     "</div>"+
@@ -234,8 +234,8 @@ function header_active(){
     "<p>AWS Certified Cloud Practitioner</p>"+
     "</div>"+
     "</div>"+
-    "<div class='row'>"+
-    '<div class="column-custom" style=" padding: 3px;background-color:#f7b538; width: 75%;">'+
+    "<div style='margin-bottom: 15% !important;' class='row' >"+
+    '<div class="column-custom" style=" padding: 3px;background-color:#f7b538; width: 25%;">'+
     '<p> 2020</p>'+
     // '<li> 2021</li>'+
     '</div>'+
@@ -245,7 +245,7 @@ function header_active(){
     "</div>"+
     "</div>"+
     "<h2 class= 'stroke-text' style='text-align: right; color: #87C6BE;'>Professional Association Memberships</h2>"+
-    "<div class='row'>"+
+    "<div style=' margin-bottom: 15% !important;' class='row' >"+
 		"<div class='column-custom' style='padding: 3px; background-color:#f7b538; width: 25%;'>"+
 		"<ul style='font-size: 1rem;list-style: none; display: contents;float: left;'>"+
 		"<li>2019</li>"+

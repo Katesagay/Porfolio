@@ -160,6 +160,9 @@ body::-webkit-scrollbar-thumb {
       margin-top: 0% !important;
       padding: 11px !important;
     }
+.sm-resume-row{
+    margin-bottom: 15%!important;
+}
 
   }
 
