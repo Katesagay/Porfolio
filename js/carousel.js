@@ -228,19 +228,21 @@ function header_active(){
     "<h2 class= 'stroke-text' style='text-align: right;  color: #87C6BE;'>Professional Certifications</h2>"+
     "<div class='row'>"+
     '<div class="column-custom" style=" padding: 3px;background-color:#f7b538; width: 25%;">'+
-    '<ul style="font-size: 1rem;list-style: none; display: contents;float: left;">'+
-    '<li> 2019</li>'+
-    '<li> 2020</li>'+
+    '<p> 2019</p>'+
+    "</div>"+
+    '<div class="column-custom" style=" padding: 3px;background-color:#87C6BE; width: 75%;">'+
+    "<p>AWS Certified Cloud Practitioner</p>"+
+    "</div>"+
+    "</div>"+
+    "<div class='row'>"+
+    '<div class="column-custom" style=" padding: 3px;background-color:#f7b538; width: 75%;">'+
+    '<p> 2020</p>'+
     // '<li> 2021</li>'+
-    '</ul>'+
     '</div>'+
     '<div class="column-custom" style=" padding: 3px;background-color:#87C6BE; width: 75%;">'+
-    
-    "<ul style='list-style: none;'>"+
-    "<li>AWS Certified Cloud Practitioner</li>"+
-    "<li>AWS Certified Developer - Associate</li>"+
+    "<p>AWS Certified Developer - Associate</p>"+
     // "<li>HashiCorp - Terraform Associate</li>"+
-    "</ul>"+
+    "</div>"+
     "</div>"+
     "<h2 class= 'stroke-text' style='text-align: right; color: #87C6BE;'>Professional Association Memberships</h2>"+
     "<div class='row'>"+

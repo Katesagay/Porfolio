@@ -149,6 +149,20 @@ body::-webkit-scrollbar-thumb {
 /**title
 /*******************************************************************************************************************************************/
 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+@media screen and (max-width: 500px) {
+.column-custom {
+      width: 100% !important;
+      margin-top: 0% !important;
+      padding: 11px !important;
+    }
+
+  }
+
 .container:after, .row:after, .u-cf {
     content: "";
     display: table;
