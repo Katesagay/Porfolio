@@ -103,7 +103,7 @@ function header_active(){
     '<h1 style="font-size: 1.5rem" >👋</h1>' +
 		'<h1 style="color:#87C6BE; font-size: 3rem">Hello</h1>'+
 		"<h2 class= 'stroke-text' style='font-size: 2.1rem; color:#f7b538' > Hello! I'm Kate Kunbi Sagay, a Software Engineer based in Kent</h2>"+
-		'<h2 class= "stroke-text" style="font-size: 2.1rem; color:#f7b538"> I enjoy creating Python applications and how to videos on youtube.</h2>'+  
+		'<h2 class= "stroke-text" style="font-size: 2.1rem; color:#f7b538"> I enjoy building cloud native applications </h2>'+  
   '</div>'+
    ' </div>'
     myseventhNode.innerHTML = seventhHtmlcode
@@ -116,6 +116,7 @@ function header_active(){
     "<div style='margin-bottom: 15% !important; margin-top: 5% !important; position: absolute; height: min-content;' class='row' >"+
          '<div class="column-custom" style=" padding: 3px;background-color:#f7b538; width: 25%;">'+
          '<ul style="font-size: 1rem;list-style: none; display: contents;float: left;">'+
+          '<li>Site Reliability Engineer</li>'+
          '<li>Deloitte Consulting</li>'+
          '<li>London, United Kingdom</li>'+
          '<li>April 2019 - Present</li>'+
@@ -124,20 +125,18 @@ function header_active(){
   '<div class="column-custom" style="padding: 5px; font-size: 1rem;background-color:#87C6BE; width: 75%;">'+
   
  " <ul style='list-style: none; padding: 0;' >"+
+ "<li> Subject matter expert and lead representative for product in operations</li>"+
+ "<li> Activity monitoring system that daily traffic periodically peaked at 1 million + users</li>"+
+ "<li> Creating tactical python scripts to fill in gaps and resolve incidences </li>"+
   "<li> Developed monitoring system templates for product teams.</li>"+
   "<li> Escalated and triaged with product teams on technical issues and trends.</li>"+
   "<li> Automated alert response processes through slack integration and aws for alert response  - leading to better real-time collaborative response from on-call responders.</li>"+
-   " <li> Capture and analyze major metrics such as throttling, percentage errors and and develop new metrics and KPIs as necessary - add these metrics to monitoring dashboards.</li>"+
+   " <li> Capture and analyze major metrics such as throttling, percentage errors and develop new metrics and KPIs as necessary</li>"+
+   " <li> Query cloudwatch log insights to troubleshoot and investigate incidences.</li>"+
       "<li> Update runbooks, tools and documentation to facilitate and prepare on-call teams for future incidents.</li>"+
-        "<li> Developed complex and dynamic Tableau dashboards.</li>"+
-         " <li> Reviewing Pull Requests.</li>"+
-           " <li> Peer programming.</li>"+
-             " <li> Built web connector to feed open-sourced data into Tableau and created diagrams to provide insight.</li>"+
-               " <li> Created Lambda function with python on AWS to transform data and feed into MySQL - ETL.</li>"+
-                 " <li> Custom-built Lambda Layers on Linux platform provided on an Amazon EC2 Instance.</li>"+
-                   " <li> Query log insights to troubleshoot and investigate incidences.</li>"+
-                    "  <li> Mentoring Junior Developers.</li>"+
-                       " <li> Communication Lead of Engineering guild.</li>"+
+         " <li> Reviewing Pull Requests and peer programming.</li>"+
+               " <li> Created Lambda function and layers with python on AWS to transform data and feed into MySQL - ETL.</li>"+
+                    " <li> Mentoring Junior Developers and Communication Lead of Engineering guild.</li>"+
                           "<li> International Business Travel.</li>"+
                            " <li> Technologies used: Terraform, Python, Bash, Amazon Web Services, Azure, PagerDuty, Slack</li>"+
 "</ul>"+
@@ -237,11 +236,11 @@ function header_active(){
     "<div style='margin-bottom: 15% !important;' class='row' >"+
     '<div class="column-custom" style=" padding: 3px;background-color:#f7b538; width: 25%;">'+
     '<p> 2020</p>'+
-    // '<li> 2021</li>'+
+    '<li> 2021</li>'+
     '</div>'+
     '<div class="column-custom" style=" padding: 3px;background-color:#87C6BE; width: 75%;">'+
     "<p>AWS Certified Developer - Associate</p>"+
-    // "<li>HashiCorp - Terraform Associate</li>"+
+    "<li>HashiCorp - Terraform Associate</li>"+
     "</div>"+
     "</div>"+
     "<h2 class= 'stroke-text' style='text-align: right; color: #87C6BE;'>Professional Association Memberships</h2>"+
